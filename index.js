@@ -24,11 +24,15 @@ app.get("/helth", function (req, res) {
   res.status(200).send("Welcome to home route");
 });
 
-const API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
+// const ROANUZ_PROJECT_KEY = "RS_P_1744648817841672196";
+const ROANUZ_API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
+
+// const API_KEY = ROANUZ_API_KEY;
 
 app.post("/match/feed/v1/", function (req, res) {
+  console.log("Received");
   var buffer = Buffer.concat(req.chunks);
-  if (req.headers["rs-api-key"] == API_KEY) {
+  if (req.headers["rs-api-key"] == ROANUZ_API_KEY) {
     zlib.unzip(buffer, (err, buffer) => {
       if (!err) {
         data = JSON.parse(buffer.toString());
