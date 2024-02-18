@@ -10,7 +10,8 @@ function rawBody(req, res, next) {
   req.chunks = [];
 
   req.on("data", function (chunk) {
-    req.chunks.push(Buffer(chunk));
+    console.log("Chunk", chunk, typeof chunk);
+    req.chunks.push(Buffer.from(chunk));
   });
   req.on("end", function () {
     next();
@@ -27,7 +28,6 @@ app.get("/helth", function (req, res) {
 // const ROANUZ_PROJECT_KEY = "RS_P_1744648817841672196";
 const ROANUZ_API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
 
-// const API_KEY = ROANUZ_API_KEY;
 
 app.post("/match/feed/v1/", function (req, res) {
   console.log("Received");
