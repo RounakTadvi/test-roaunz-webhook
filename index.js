@@ -28,6 +28,16 @@ app.get("/helth", function (req, res) {
 // const ROANUZ_PROJECT_KEY = "RS_P_1744648817841672196";
 const ROANUZ_API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
 
+function logObjectKeys(obj, prefix = "") {
+  for (const key in obj) {
+    if (typeof obj[key] === "object" && obj[key] !== null) {
+      logObjectKeys(obj[key], `${prefix}${key}.`);
+    } else {
+      console.log(`${prefix}${key}`);
+    }
+  }
+}
+
 app.post("/match/feed/v1/", function (req, res) {
   console.log("Received");
   var buffer = Buffer.concat(req.chunks);
@@ -62,8 +72,10 @@ app.post("/match/feed/v1/", function (req, res) {
         };
 
         const live = data.data.play.live;
+        console.log("Live keys:");
+        logObjectKeys(live);
 
-        console.log({ Data: data }, { matchData: matchData }, { live: live });
+        console.log({ Data: data }, { matchData: matchData });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
