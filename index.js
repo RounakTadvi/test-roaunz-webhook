@@ -36,17 +36,17 @@ app.post("/match/feed/v1/", function (req, res) {
       if (!err) {
         data = JSON.parse(buffer.toString());
         const matchData = {
-          matchName: data.name,
-          matchKey: data.key,
-          matchSortName: data.short_name,
-          tournamentKey: data.tournament,
-          teams: data.teams,
-          winner: data.winner,
-          title: data.title,
-          play_status: data.play_status,
-          start_at_local: data.start_at_local,
-          toss: data.toss,
-          play: data.play,
+          matchName: data.data.name,
+          matchKey: data.data.key,
+          matchSortName: data.data.short_name,
+          tournamentKey: data.data.tournament,
+          teams: data.data.teams,
+          winner: data.data.winner,
+          title: data.data.title,
+          play_status: data.data.play_status,
+          start_at_local: data.data.start_at_local,
+          toss: data.data.toss,
+          play: data.data.play,
         };
         console.log({ Data: data }, { matchData: matchData });
         res.send(JSON.stringify({ status: true }));
