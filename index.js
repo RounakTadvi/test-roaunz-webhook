@@ -48,16 +48,16 @@ app.post("/match/feed/v1/", function (req, res) {
           start_at_local: data.data.start_at_local,
           toss: data.data.toss,
           play: {
-            first_batting: data.data.play.first_batting,
-            day_number: data.data.play.day_number,
-            overs_per_innings: data.data.play.overs_per_innings,
-            reduced_overs: data.data.play.reduced_overs,
+            firstBatting: data.data.play.first_batting,
+            dayNumber: data.data.play.day_number,
+            oversPerInnings: data.data.play.overs_per_innings,
+            reducedOvers: data.data.play.reduced_overs,
             target: data.data.play.target,
             result: data.data.play.result,
-            innings_order: data.data.play.innings_order,
+            inningsOrder: data.data.play.innings_order,
             innings: data.data.play.innings,
             live: data.data.play.live,
-            related_balls: data.data.play.related_balls,
+            relatedBalls: data.data.play.related_balls,
           },
         };
         console.log({ Data: data }, { matchData: matchData });
