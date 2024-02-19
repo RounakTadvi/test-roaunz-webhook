@@ -1,0 +1,86 @@
+{
+  "sport": "cricket",
+  "data_kind": "match",
+  "data": {
+    "key": "a-rz--cricket--sO1757260499411714051",
+    "name": "Namibia vs Netherlands",
+    "short_name": "NAM vs NED",
+    "sub_title": "3rd Match",
+    "status": "started",
+    "start_at": 1708314300,
+    "tournament": {
+      "key": "a-rz--cricket--icc--icccwclt--2023-27-8JlY",
+      "name": "ICC Cricket World Cup League Two, 2023-27",
+      "short_name": "ICCCWCLT"
+    },
+    "metric_group": "MG100",
+    "sport": "cricket",
+    "winner": null,
+    "teams": { "b": {}, "a": {} },
+    "venue": {
+      "key": "c__stadium__mulpani_cricket_ground_nepal__2241b",
+      "name": "Upper Mulpani Cricket Ground",
+      "city": "Gokarneshwor",
+      "country": {},
+      "geolocation": "27.718764,85.39126949999999"
+    },
+    "association": {
+      "key": "c__board__icc__c2ab7ee61",
+      "code": "ICC",
+      "name": "International Cricket Council",
+      "country": null,
+      "parent": null
+    },
+    "messages": [],
+    "gender": "male",
+    "format": "oneday",
+    "title": "Namibia vs Netherlands - 3rd Match - ICC Cricket World Cup League Two, 2023-27",
+    "play_status": "in_play",
+    "start_at_local": 1708335000,
+    "expected_start_at": null,
+    "toss": {
+      "called": "b",
+      "winner": "b",
+      "elected": "bowl",
+      "squad_announced": true
+    },
+    "play": {
+      "first_batting": "a",
+      "day_number": 1,
+      "overs_per_innings": [],
+      "reduced_overs": null,
+      "target": {},
+      "result": null,
+      "innings_order": [],
+      "innings": {},
+      "live": {},
+      "related_balls": {}
+    },
+    "players": {},
+    "notes": [],
+    "data_review": {
+      "schedule": true,
+      "venue": true,
+      "result": false,
+      "pom": false,
+      "score": false,
+      "players": true,
+      "playing_xi": true,
+      "score_reviewed_ball_index": [],
+      "team_a": true,
+      "team_b": true,
+      "good_to_close": false,
+      "note": ""
+    },
+    "squad": { "a": {}, "b": {} },
+    "estimated_end_date": 1708346700,
+    "completed_date_approximate": null,
+    "umpires": {
+      "match_umpires": [],
+      "tv_umpires": [],
+      "reserve_umpires": [],
+      "match_referee": []
+    },
+    "weather": "12.0°C|Mist"
+  }
+}

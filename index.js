@@ -28,7 +28,6 @@ app.get("/helth", function (req, res) {
 // const ROANUZ_PROJECT_KEY = "RS_P_1744648817841672196";
 const ROANUZ_API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
 
-
 app.post("/match/feed/v1/", function (req, res) {
   console.log("Received");
   var buffer = Buffer.concat(req.chunks);
@@ -36,7 +35,20 @@ app.post("/match/feed/v1/", function (req, res) {
     zlib.unzip(buffer, (err, buffer) => {
       if (!err) {
         data = JSON.parse(buffer.toString());
-        console.log("Data", data, typeof data);
+        const matchData = {
+          matchName: data.name,
+          matchKey: data.key,
+          matchSortName: data.short_name,
+          tournamentKey: data.tournament.key,
+          teams: data.teams,
+          winner: data.winner,
+          title: data.title,
+          play_status: data.play_status,
+          start_at_local: data.start_at_local,
+          toss: data.toss,
+          play: data.play,
+        };
+        console.log({ Data: data }, { matchData: matchData });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
