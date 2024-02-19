@@ -60,7 +60,10 @@ app.post("/match/feed/v1/", function (req, res) {
             relatedBalls: data.data.play.related_balls,
           },
         };
-        console.log({ Data: data }, { matchData: matchData });
+
+        const live = data.data.data.data.play.live;
+
+        console.log({ Data: data }, { matchData: matchData }, { live: live });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
