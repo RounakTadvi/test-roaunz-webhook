@@ -61,7 +61,7 @@ app.post("/match/feed/v1/", function (req, res) {
           },
         };
 
-        const live = data.data.data.data.play.live;
+        const live = data.data.play.live;
 
         console.log({ Data: data }, { matchData: matchData }, { live: live });
         res.send(JSON.stringify({ status: true }));
