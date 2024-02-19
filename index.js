@@ -40,13 +40,25 @@ app.post("/match/feed/v1/", function (req, res) {
           matchKey: data.data.key,
           matchSortName: data.data.short_name,
           tournamentKey: data.data.tournament,
-          teams: data.data.teams,
+          teamsA: data.data.teams.a,
+          teamsB: data.data.teams.b,
           winner: data.data.winner,
           title: data.data.title,
           play_status: data.data.play_status,
           start_at_local: data.data.start_at_local,
           toss: data.data.toss,
-          play: data.data.play,
+          play: {
+            first_batting: data.data.play.first_batting,
+            day_number: data.data.play.day_number,
+            overs_per_innings: data.data.play.overs_per_innings,
+            reduced_overs: data.data.play.reduced_overs,
+            target: data.data.play.target,
+            result: data.data.play.result,
+            innings_order: data.data.play.innings_order,
+            innings: data.data.play.innings,
+            live: data.data.play.live,
+            related_balls: data.data.play.related_balls,
+          },
         };
         console.log({ Data: data }, { matchData: matchData });
         res.send(JSON.stringify({ status: true }));
