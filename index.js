@@ -39,7 +39,7 @@ app.post("/match/feed/v1/", function (req, res) {
           matchName: data.name,
           matchKey: data.key,
           matchSortName: data.short_name,
-          tournamentKey: data.tournament.key,
+          tournamentKey: data.tournament,
           teams: data.teams,
           winner: data.winner,
           title: data.title,
