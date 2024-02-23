@@ -1,0 +1,267 @@
+{
+  "data": {
+    "over": {
+      "index": {
+        "innings": "b_1",
+        "over_number": 20
+      },
+      "balls": [
+        {
+          "key": "534400",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Naseem Shah: <b>Wicket!</b> Runout by [T] Mohammad Rizwan[H] Mohammad Ali. No runs.",
+          "innings": "b_1",
+          "overs": [19, 6],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "c__player__mohammad_ali__1f7cd",
+              "is_run_out": true,
+              "is_stumps": false,
+              "is_catch": false,
+              "is_assists": false
+            },
+            {
+              "player_key": "m_rizwan",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": false,
+              "is_assists": true
+            }
+          ],
+          "wicket": {
+            "player_key": "nas_shah",
+            "wicket_type": "run_out"
+          },
+          "non_striker_key": "ty_mills",
+          "entry_time": 1708444878.231,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444878.231
+        },
+        {
+          "key": "534336",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Naseem Shah: 2 runs.",
+          "innings": "b_1",
+          "overs": [19, 5],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 2,
+            "is_dot_ball": false,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 2,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 2,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "ty_mills",
+          "entry_time": 1708444795.681,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444795.681
+        },
+        {
+          "key": "534272",
+          "ball_type": "bye",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Tymal Mills: bye, 1 run.",
+          "innings": "b_1",
+          "overs": [19, 4],
+          "batsman": {
+            "player_key": "ty_mills",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": false,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 1,
+            "extras": 1,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1708444724.012,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444724.012
+        },
+        {
+          "key": "534208",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Ubaid Shah: <b>Bowled!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [19, 3],
+          "batsman": {
+            "player_key": "a-rz--cricket--us-M6w3",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": {
+            "player_key": "a-rz--cricket--us-M6w3",
+            "wicket_type": "bowled"
+          },
+          "non_striker_key": "nas_shah",
+          "entry_time": 1708444623.117,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444623.117
+        },
+        {
+          "key": "534144",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Ubaid Shah: No runs.",
+          "innings": "b_1",
+          "overs": [19, 2],
+          "batsman": {
+            "player_key": "a-rz--cricket--us-M6w3",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1708444580.256,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444580.256
+        },
+        {
+          "key": "534080",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Mohammad Ali to Faheem Ashraf: <b>Wicket!</b>, Caught by Reeza Hendricks. <b>Wicket!</b> No runs.",
+          "innings": "b_1",
+          "overs": [19, 1],
+          "batsman": {
+            "player_key": "fa_ashraf",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__mohammad_ali__1f7cd",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "r_hendricks",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "fa_ashraf",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "nas_shah",
+          "entry_time": 1708444574.676,
+          "ball_play_status": "played",
+          "ball_tags": [],
+          "updated_time": 1708444574.676
+        }
+      ]
+    },
+    "previous_over_index": {
+      "innings": "b_1",
+      "over_number": 18
+    },
+    "next_over_index": null,
+    "previous_over_key": "b_1_19",
+    "next_over_key": null
+  }
+}
