@@ -230,7 +230,7 @@ function datafunction(data) {
     teamBLiveScore: dataConvert.play.innings.b_1.score,
     tossWinner: dataConvert.toss.winner,
     tossElected: dataConvert.toss.elected,
-    live: dataConvert.live,
+    live: dataConvert.play.live,
     firstBatting:
       dataConvert.play.first_batting === 'a' ? `${dataConvert.teams.a.code}` : `${dataConvert.teams.b.code}`,
     dayNumber: dataConvert.play.day_number,
