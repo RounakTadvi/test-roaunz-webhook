@@ -210,29 +210,33 @@ function datafunction(data) {
   // };
   const dataConvert = data;
 
-  const liveScore = {
+  const liveData = {
     matchKey: dataConvert.key,
     matchShortName: dataConvert.short_name,
-    tournamentShort: dataConvert.tournament.short_name,
+    tournamentShortName: dataConvert.tournament.short_name,
     status: dataConvert.status,
-    startAt: dataConvert.start_at,
+    startAt: new Date(dataConvert.start_at * 1000).toISOString(),
     sport: dataConvert.sport,
     winner: dataConvert.winner,
     messages: dataConvert.messages,
     gender: dataConvert.gender,
-    format: dataConvert.format[0],
+    format: dataConvert.format,
     matchTitle: dataConvert.title,
     playStatus: dataConvert.play_status,
-    expectedStartAt: dataConvert.estimated_end_date,
+    expectedStartAt: new Date(
+      dataConvert.estimated_end_date * 1000
+    ).toISOString(),
     teamAName: dataConvert.teams.a.code,
     teamBName: dataConvert.teams.b.code,
-    teamALiveScore: dataConvert.play.innings.a_1.score,
-    teamBLiveScore: dataConvert.play.innings.b_1.score,
+    teamALiveScore: dataConvert.play.innings.a_1,
+    teamBLiveScore: dataConvert.play.innings.b_1,
     tossWinner: dataConvert.toss.winner,
     tossElected: dataConvert.toss.elected,
     live: dataConvert.play.live,
     firstBatting:
-      dataConvert.play.first_batting === 'a' ? `${dataConvert.teams.a.code}` : `${dataConvert.teams.b.code}`,
+      dataConvert.play.first_batting === "a"
+        ? `${dataConvert.teams.a.code}`
+        : `${dataConvert.teams.b.code}`,
     dayNumber: dataConvert.play.day_number,
     oversPerInnings: dataConvert.play.overs_per_innings,
     reducedOvers: dataConvert.play.reduced_overs,
@@ -243,7 +247,7 @@ function datafunction(data) {
 
   // console.log('liveScore', liveScore);
 
-  return liveScore;
+  return liveData;
 }
 
 ///get live match
