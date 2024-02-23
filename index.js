@@ -135,8 +135,8 @@ function datafunction(data) {
     },
     playIningInfo: {
       "play.innings[0]===b_1 ? teams.b.code: teams.a.code": {
-        index: data.play.innings[0][index],
-        overs: data.play.innings[0][overs],
+        index: data.play.innings[0]["index"],
+        overs: data.play.innings[0]["overs"],
         //   isCompleted: data.play.innings[0][is_completed],
         //   score_string: data.play.innings[0].score_str,
         //   score_runs: data.play.innings[0].score.runs,
