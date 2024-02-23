@@ -124,7 +124,7 @@ function datafunction(data) {
     } won the toss and elected to ${data.toss.elected} first`,
     playInfo: {
       firstBatting: `${
-        data.play.first_batting === a ? data.temas.a.code : data.teams.b.code
+        data.play.first_batting === "a" ? data.temas.a.code : data.teams.b.code
       }`,
       dayNumber: data.play.day_number,
       oversPerInnings: data.play.overs_per_innings,
