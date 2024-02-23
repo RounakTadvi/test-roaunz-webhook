@@ -120,7 +120,7 @@ function datafunction(data) {
     play_status: data.play_status,
     // expected_start_at: null,
     toss: `${
-      data.toss.winner === a ? data.temas.a.code : data.teams.b.code
+      data.toss.winner === "a" ? data.temas.a.code : data.teams.b.code
     } won the toss and elected to ${data.toss.elected} first`,
     playInfo: {
       firstBatting: `${
