@@ -232,7 +232,7 @@ function datafunction(data) {
     tossElected: dataConvert.toss.elected,
     live: dataConvert.live,
     firstBatting:
-      dataConvert.paly.first_batting === 'a' ? `${dataConvert.teams.a.code}` : `${dataConvert.teams.b.code}`,
+      dataConvert.play.first_batting === 'a' ? `${dataConvert.teams.a.code}` : `${dataConvert.teams.b.code}`,
     dayNumber: dataConvert.play.day_number,
     oversPerInnings: dataConvert.play.overs_per_innings,
     reducedOvers: dataConvert.play.reduced_overs,
