@@ -24,7 +24,8 @@ const scoreCard = (dataConvert) => {
         : null;
     })
     .filter((player) => player !== null);
-
+  const scoreArray = playerListTeamA.map((player) => player.score);
+  console.log("playerListTeamA", scoreArray);
   const playerListTeamB = dataConvert.squad.b.playing_xi
     .map((playerKey) => {
       const playerInfo = dataConvert.players[playerKey];
@@ -40,6 +41,9 @@ const scoreCard = (dataConvert) => {
         : null;
     })
     .filter((player) => player !== null);
+
+    const scoreArrayB = playerListTeamB.map((player) => player.score);
+    console.log("playerListTeamB", scoreArrayB);
 
   const data = {
     matchKey: dataConvert.key,
