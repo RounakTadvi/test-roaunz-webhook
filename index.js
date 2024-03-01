@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var zlib = require("zlib");
 const { default: axios } = require("axios");
+const { scoreCard } = require("./testResponse/scorecard");
 
 const app = express();
 const port = 5000;
@@ -85,8 +86,9 @@ app.post("/match/feed/v1/", rawBody, function (req, res) {
         const match = data.data;
 
         const responseData = datafunction(match);
+        const scoreCard = scoreCard(match);
 
-        console.log({ Data: data }, { matchData: responseData });
+        console.log({ scoreCard: scoreCard }, { matchData: responseData });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
