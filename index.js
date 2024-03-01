@@ -6,8 +6,8 @@ const { default: axios } = require("axios");
 const app = express();
 const port = 5000;
 
-const ROANUZ_PROJECT_KEY = "RS_P_1744648817841672196";
-const ROANUZ_API_KEY = "RS5:e9d2ee67cebda9cab0f180f317f5cd55";
+const ROANUZ_PROJECT_KEY = "RS_P_1762429228671963137";
+const ROANUZ_API_KEY = "RS5:fe2bbe2420a22fca13e945343145d9c6";
 
 // =========================Function for auth of Roaunz API
 const authResponseApi = async () => {
@@ -286,40 +286,40 @@ function datafunction(data) {
 //   }
 // });
 
-// ////Ball by Ball
-// async function getMatchBallByBall(matchKey) {
-//   try {
-//     const rs_token = await authResponseApi();
-//     let roaunzResponse;
-//     if (rs_token) {
-//       roaunzResponse = await axios.get(
-//         `https://api.sports.roanuz.com/v5/cricket/${ROANUZ_PROJECT_KEY}/match/${matchKey}/ball-by-ball/`,
-//         {
-//           headers: {
-//             "rs-token": rs_token,
-//           },
-//         }
-//       );
-//     }
-//     console.log("roaunzResponse.data.data", roaunzResponse.data.data);
-//     const data = roaunzResponse.data.data;
-//     return data;
-//   } catch (error) {
-//     console.log("clg in getMatch function", error);
-//     return error;
-//   }
-// }
+////Ball by Ball
+async function getMatchBallByBall(matchKey) {
+  try {
+    const rs_token = await authResponseApi();
+    let roaunzResponse;
+    if (rs_token) {
+      roaunzResponse = await axios.get(
+        `https://api.sports.roanuz.com/v5/cricket/${ROANUZ_PROJECT_KEY}/match/${matchKey}/ball-by-ball/`,
+        {
+          headers: {
+            "rs-token": rs_token,
+          },
+        }
+      );
+    }
+    console.log("roaunzResponse.data.data", roaunzResponse.data.data);
+    const data = roaunzResponse.data.data;
+    return data;
+  } catch (error) {
+    console.log("clg in getMatch function", error);
+    return error;
+  }
+}
 
-// app.get("/getmatch/ballbyball/:matchkey", async function (req, res) {
-//   console.log("Ball By Ball");
-//   try {
-//     const { matchkey } = req.params;
-//     const data = await getMatchBallByBall(matchkey);
-//     res.status(200).send({ message: "success", data: data });
-//   } catch (error) {
-//     res.status(500).send({ message: "Internal server error", error: error });
-//   }
-// });
+app.get("/getmatch/ballbyball/:matchkey", async function (req, res) {
+  console.log("Ball By Ball");
+  try {
+    const { matchkey } = req.params;
+    const data = await getMatchBallByBall(matchkey);
+    res.status(200).send({ message: "success", data: data });
+  } catch (error) {
+    res.status(500).send({ message: "Internal server error", error: error });
+  }
+});
 
 // app.get("/getfeaturedtournament/:countrycode", async function (req, res) {
 //   const { countrycode } = req.params;

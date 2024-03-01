@@ -1,0 +1,5122 @@
+{
+  "data": {
+    "key": "pakaus_2022_test_03",
+    "name": "Pakistan vs Australia",
+    "short_name": "PAK vs AUS",
+    "sub_title": "3rd Test Match",
+    "teams": {
+      "a": {
+        "key": "pak",
+        "code": "PAK",
+        "name": "Pakistan",
+        "country_code": "PAK"
+      },
+      "b": {
+        "key": "aus",
+        "code": "AUS",
+        "name": "Australia",
+        "country_code": "AUS"
+      }
+    },
+    "start_at": 1647838800.0,
+    "venue": {
+      "key": "c__stadium__gaddafi_stadium__38011",
+      "name": "Gaddafi Stadium",
+      "city": "Lahore",
+      "country": {
+        "short_code": "PK",
+        "code": "PAK",
+        "name": "Pakistan",
+        "official_name": "Islamic Republic of Pakistan",
+        "is_region": false
+      }
+    },
+    "tournament": {
+      "key": "pakaus_2022",
+      "name": "Australia tour of Pakistan, 2022",
+      "short_name": "PAK vs AUS"
+    },
+    "association": {
+      "key": "c__board__icc__c2ab7ee61",
+      "code": "ICC",
+      "name": "International Cricket Council",
+      "country": null,
+      "parent": null
+    },
+    "metric_group": "MG100",
+    "status": "completed",
+    "winner": "b",
+    "messages": [],
+    "gender": "male",
+    "sport": "cricket",
+    "format": "test",
+    "title": "Pakistan vs Australia - 3rd Test Match - Australia tour of Pakistan, 2022",
+    "play_status": "result",
+    "start_at_local": 1647856800.0,
+    "toss": { "called": "b", "winner": "b", "elected": "bat" },
+    "play": {
+      "first_batting": "b",
+      "day_number": 5,
+      "overs_per_innings": null,
+      "reduced_overs": null,
+      "target": null,
+      "result": {
+        "pom": ["p_cummins"],
+        "winner": "b",
+        "result_type": "runs",
+        "msg": "Australia won by 115 runs"
+      },
+      "innings_order": ["b_1", "a_1", "b_2", "a_2"],
+      "innings": {
+        "b_1": {
+          "index": "b_1",
+          "overs": [133, 3],
+          "is_completed": true,
+          "score_str": "391/10 in 133.3",
+          "score": {
+            "runs": 391,
+            "balls": 801,
+            "fours": 42,
+            "sixes": 1,
+            "dot_balls": 606,
+            "run_rate": 2.93
+          },
+          "wickets": 10,
+          "extra_runs": {
+            "extra": 25,
+            "bye": 13,
+            "leg_bye": 4,
+            "wide": 0,
+            "no_ball": 8,
+            "penalty": null
+          },
+          "balls_breakup": {
+            "balls": 801,
+            "dot_balls": 606,
+            "wides": 0,
+            "no_balls": 8
+          },
+          "batting_order": [
+            "d_warner",
+            "u_khawaja",
+            "mar_labuschagne",
+            "s_smith",
+            "t_head",
+            "cam_green",
+            "ale_carey",
+            "m_starc",
+            "p_cummins",
+            "n_lyon",
+            "m_swepson"
+          ],
+          "bowling_order": [
+            "m_starc",
+            "p_cummins",
+            "cam_green",
+            "n_lyon",
+            "m_swepson"
+          ],
+          "wicket_order": [
+            "d_warner",
+            "mar_labuschagne",
+            "s_smith",
+            "u_khawaja",
+            "t_head",
+            "ale_carey",
+            "cam_green",
+            "m_starc",
+            "n_lyon",
+            "m_swepson"
+          ],
+          "partnerships": [
+            {
+              "begin_overs": [0, 1],
+              "end_overs": [2, 3],
+              "player_a_key": "d_warner",
+              "player_a_score": {
+                "runs": 7,
+                "balls": 13,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 1,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 8,
+                "balls": 15,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 3.2
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [2, 4],
+              "end_overs": [2, 5],
+              "player_a_key": "mar_labuschagne",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 0,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 0,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 0.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [2, 6],
+              "end_overs": [56, 2],
+              "player_a_key": "s_smith",
+              "player_a_score": {
+                "runs": 59,
+                "balls": 169,
+                "fours": 6,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 68,
+                "balls": 158,
+                "fours": 8,
+                "sixes": 1
+              },
+              "score": {
+                "runs": 138,
+                "balls": 321,
+                "fours": 14,
+                "sixes": 1,
+                "run_rate": 2.58
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [56, 3],
+              "end_overs": [74, 1],
+              "player_a_key": "t_head",
+              "player_a_score": {
+                "runs": 17,
+                "balls": 50,
+                "fours": 3,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 22,
+                "balls": 59,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 41,
+                "balls": 107,
+                "fours": 4,
+                "sixes": 0,
+                "run_rate": 2.3
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [74, 2],
+              "end_overs": [80, 6],
+              "player_a_key": "cam_green",
+              "player_a_score": {
+                "runs": 6,
+                "balls": 21,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "t_head",
+              "player_b_score": {
+                "runs": 9,
+                "balls": 20,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 19,
+                "balls": 41,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 2.78
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [81, 1],
+              "end_overs": [119, 6],
+              "player_a_key": "cam_green",
+              "player_a_score": {
+                "runs": 64,
+                "balls": 129,
+                "fours": 7,
+                "sixes": 0
+              },
+              "player_b_key": "ale_carey",
+              "player_b_score": {
+                "runs": 67,
+                "balls": 105,
+                "fours": 7,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 135,
+                "balls": 234,
+                "fours": 14,
+                "sixes": 0,
+                "run_rate": 3.46
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [120, 1],
+              "end_overs": [124, 5],
+              "player_a_key": "cam_green",
+              "player_a_score": {
+                "runs": 9,
+                "balls": 13,
+                "fours": 2,
+                "sixes": 0
+              },
+              "player_b_key": "m_starc",
+              "player_b_score": {
+                "runs": 3,
+                "balls": 16,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 12,
+                "balls": 29,
+                "fours": 2,
+                "sixes": 0,
+                "run_rate": 2.48
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [124, 6],
+              "end_overs": [129, 6],
+              "player_a_key": "p_cummins",
+              "player_a_score": {
+                "runs": 4,
+                "balls": 14,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "m_starc",
+              "player_b_score": {
+                "runs": 10,
+                "balls": 17,
+                "fours": 2,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 16,
+                "balls": 31,
+                "fours": 2,
+                "sixes": 0,
+                "run_rate": 3.1
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [130, 1],
+              "end_overs": [130, 6],
+              "player_a_key": "p_cummins",
+              "player_a_score": {
+                "runs": 1,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "n_lyon",
+              "player_b_score": {
+                "runs": 4,
+                "balls": 3,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 5,
+                "balls": 6,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 5.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [131, 1],
+              "end_overs": [133, 3],
+              "player_a_key": "p_cummins",
+              "player_a_score": {
+                "runs": 6,
+                "balls": 8,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "m_swepson",
+              "player_b_score": {
+                "runs": 9,
+                "balls": 7,
+                "fours": 2,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 17,
+                "balls": 15,
+                "fours": 3,
+                "sixes": 0,
+                "run_rate": 6.8
+              },
+              "is_completed": true
+            }
+          ]
+        },
+        "b_2": {
+          "index": "b_2",
+          "overs": [60, 0],
+          "is_completed": true,
+          "score_str": "227/3 in 60.0",
+          "score": {
+            "runs": 227,
+            "balls": 360,
+            "fours": 22,
+            "sixes": 2,
+            "dot_balls": 235,
+            "run_rate": 3.78
+          },
+          "wickets": 3,
+          "extra_runs": {
+            "extra": 8,
+            "bye": 5,
+            "leg_bye": 2,
+            "wide": 0,
+            "no_ball": 1,
+            "penalty": null
+          },
+          "balls_breakup": {
+            "balls": 360,
+            "dot_balls": 235,
+            "wides": 0,
+            "no_balls": 1
+          },
+          "batting_order": [
+            "u_khawaja",
+            "d_warner",
+            "mar_labuschagne",
+            "s_smith",
+            "t_head"
+          ],
+          "bowling_order": [
+            "m_starc",
+            "p_cummins",
+            "n_lyon",
+            "m_swepson",
+            "cam_green",
+            "mar_labuschagne"
+          ],
+          "wicket_order": ["d_warner", "mar_labuschagne", "s_smith"],
+          "partnerships": [
+            {
+              "begin_overs": [0, 1],
+              "end_overs": [28, 1],
+              "player_a_key": "u_khawaja",
+              "player_a_score": {
+                "runs": 43,
+                "balls": 79,
+                "fours": 3,
+                "sixes": 0
+              },
+              "player_b_key": "d_warner",
+              "player_b_score": {
+                "runs": 51,
+                "balls": 91,
+                "fours": 6,
+                "sixes": 1
+              },
+              "score": {
+                "runs": 96,
+                "balls": 169,
+                "fours": 9,
+                "sixes": 1,
+                "run_rate": 3.41
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [28, 2],
+              "end_overs": [47, 3],
+              "player_a_key": "mar_labuschagne",
+              "player_a_score": {
+                "runs": 36,
+                "balls": 58,
+                "fours": 6,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 28,
+                "balls": 58,
+                "fours": 2,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 65,
+                "balls": 116,
+                "fours": 8,
+                "sixes": 0,
+                "run_rate": 3.36
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [47, 4],
+              "end_overs": [58, 5],
+              "player_a_key": "s_smith",
+              "player_a_score": {
+                "runs": 17,
+                "balls": 27,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 33,
+                "balls": 41,
+                "fours": 3,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 55,
+                "balls": 68,
+                "fours": 4,
+                "sixes": 0,
+                "run_rate": 4.85
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [58, 6],
+              "end_overs": [59, 6],
+              "player_a_key": "t_head",
+              "player_a_score": {
+                "runs": 11,
+                "balls": 7,
+                "fours": 1,
+                "sixes": 1
+              },
+              "player_b_key": "u_khawaja",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 0,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 11,
+                "balls": 7,
+                "fours": 1,
+                "sixes": 1,
+                "run_rate": 9.43
+              },
+              "is_completed": false
+            }
+          ]
+        },
+        "a_2": {
+          "index": "a_2",
+          "overs": [92, 1],
+          "is_completed": true,
+          "score_str": "235/10 in 92.1",
+          "score": {
+            "runs": 235,
+            "balls": 553,
+            "fours": 23,
+            "sixes": 2,
+            "dot_balls": 429,
+            "run_rate": 2.55
+          },
+          "wickets": 10,
+          "extra_runs": {
+            "extra": 14,
+            "bye": 8,
+            "leg_bye": 4,
+            "wide": 1,
+            "no_ball": 1,
+            "penalty": null
+          },
+          "balls_breakup": {
+            "balls": 553,
+            "dot_balls": 429,
+            "wides": 1,
+            "no_balls": 1
+          },
+          "batting_order": [
+            "c__player__abdullah_shafique__eab8b",
+            "i_haq",
+            "az_ali",
+            "b_azam",
+            "f_alam",
+            "m_rizwan",
+            "c__player__sajid_khan__9376a",
+            "nau_ali",
+            "has_ali",
+            "se_afridi",
+            "nas_shah"
+          ],
+          "bowling_order": [
+            "se_afridi",
+            "nas_shah",
+            "has_ali",
+            "c__player__sajid_khan__9376a",
+            "nau_ali"
+          ],
+          "wicket_order": [
+            "c__player__abdullah_shafique__eab8b",
+            "az_ali",
+            "i_haq",
+            "f_alam",
+            "m_rizwan",
+            "b_azam",
+            "c__player__sajid_khan__9376a",
+            "has_ali",
+            "se_afridi",
+            "nas_shah"
+          ],
+          "partnerships": [
+            {
+              "begin_overs": [0, 1],
+              "end_overs": [30, 5],
+              "player_a_key": "c__player__abdullah_shafique__eab8b",
+              "player_a_score": {
+                "runs": 27,
+                "balls": 80,
+                "fours": 3,
+                "sixes": 1
+              },
+              "player_b_key": "i_haq",
+              "player_b_score": {
+                "runs": 46,
+                "balls": 105,
+                "fours": 5,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 77,
+                "balls": 185,
+                "fours": 8,
+                "sixes": 1,
+                "run_rate": 2.5
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [30, 6],
+              "end_overs": [45, 2],
+              "player_a_key": "az_ali",
+              "player_a_score": {
+                "runs": 17,
+                "balls": 47,
+                "fours": 2,
+                "sixes": 0
+              },
+              "player_b_key": "i_haq",
+              "player_b_score": {
+                "runs": 9,
+                "balls": 41,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 28,
+                "balls": 87,
+                "fours": 2,
+                "sixes": 0,
+                "run_rate": 1.93
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [45, 3],
+              "end_overs": [61, 2],
+              "player_a_key": "b_azam",
+              "player_a_score": {
+                "runs": 21,
+                "balls": 43,
+                "fours": 2,
+                "sixes": 0
+              },
+              "player_b_key": "i_haq",
+              "player_b_score": {
+                "runs": 15,
+                "balls": 53,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 37,
+                "balls": 96,
+                "fours": 2,
+                "sixes": 0,
+                "run_rate": 2.31
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [61, 3],
+              "end_overs": [68, 4],
+              "player_a_key": "f_alam",
+              "player_a_score": {
+                "runs": 11,
+                "balls": 20,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 12,
+                "balls": 24,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 23,
+                "balls": 44,
+                "fours": 2,
+                "sixes": 0,
+                "run_rate": 3.14
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [68, 5],
+              "end_overs": [70, 3],
+              "player_a_key": "m_rizwan",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 6,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 2,
+                "balls": 5,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 2,
+                "balls": 11,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 1.09
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [70, 4],
+              "end_overs": [83, 3],
+              "player_a_key": "c__player__sajid_khan__9376a",
+              "player_a_score": {
+                "runs": 21,
+                "balls": 46,
+                "fours": 4,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 20,
+                "balls": 32,
+                "fours": 3,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 46,
+                "balls": 78,
+                "fours": 7,
+                "sixes": 0,
+                "run_rate": 3.54
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [83, 4],
+              "end_overs": [84, 1],
+              "player_a_key": "nau_ali",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "c__player__sajid_khan__9376a",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 1,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 0,
+                "balls": 4,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 0.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [84, 2],
+              "end_overs": [87, 6],
+              "player_a_key": "has_ali",
+              "player_a_score": {
+                "runs": 13,
+                "balls": 17,
+                "fours": 1,
+                "sixes": 1
+              },
+              "player_b_key": "nau_ali",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 6,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 13,
+                "balls": 23,
+                "fours": 1,
+                "sixes": 1,
+                "run_rate": 3.39
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [88, 1],
+              "end_overs": [89, 3],
+              "player_a_key": "nau_ali",
+              "player_a_score": {
+                "runs": 1,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "se_afridi",
+              "player_b_score": {
+                "runs": 5,
+                "balls": 7,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 6,
+                "balls": 9,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 4.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [89, 4],
+              "end_overs": [92, 1],
+              "player_a_key": "nas_shah",
+              "player_a_score": {
+                "runs": 1,
+                "balls": 7,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "nau_ali",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 9,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 3,
+                "balls": 16,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 1.12
+              },
+              "is_completed": true
+            }
+          ]
+        },
+        "a_1": {
+          "index": "a_1",
+          "overs": [116, 4],
+          "is_completed": true,
+          "score_str": "268/10 in 116.4",
+          "score": {
+            "runs": 268,
+            "balls": 700,
+            "fours": 28,
+            "sixes": 2,
+            "dot_balls": 561,
+            "run_rate": 2.3
+          },
+          "wickets": 10,
+          "extra_runs": {
+            "extra": 11,
+            "bye": 5,
+            "leg_bye": 0,
+            "wide": 0,
+            "no_ball": 6,
+            "penalty": null
+          },
+          "balls_breakup": {
+            "balls": 700,
+            "dot_balls": 561,
+            "wides": 0,
+            "no_balls": 6
+          },
+          "batting_order": [
+            "c__player__abdullah_shafique__eab8b",
+            "i_haq",
+            "az_ali",
+            "b_azam",
+            "f_alam",
+            "m_rizwan",
+            "c__player__sajid_khan__9376a",
+            "nau_ali",
+            "has_ali",
+            "se_afridi",
+            "nas_shah"
+          ],
+          "bowling_order": [
+            "se_afridi",
+            "has_ali",
+            "nas_shah",
+            "nau_ali",
+            "c__player__sajid_khan__9376a",
+            "b_azam"
+          ],
+          "wicket_order": [
+            "i_haq",
+            "c__player__abdullah_shafique__eab8b",
+            "az_ali",
+            "f_alam",
+            "m_rizwan",
+            "c__player__sajid_khan__9376a",
+            "nau_ali",
+            "has_ali",
+            "b_azam",
+            "nas_shah"
+          ],
+          "partnerships": [
+            {
+              "begin_overs": [0, 1],
+              "end_overs": [12, 1],
+              "player_a_key": "c__player__abdullah_shafique__eab8b",
+              "player_a_score": {
+                "runs": 7,
+                "balls": 33,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "i_haq",
+              "player_b_score": {
+                "runs": 11,
+                "balls": 41,
+                "fours": 2,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 20,
+                "balls": 73,
+                "fours": 3,
+                "sixes": 0,
+                "run_rate": 1.64
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [12, 2],
+              "end_overs": [71, 2],
+              "player_a_key": "az_ali",
+              "player_a_score": {
+                "runs": 68,
+                "balls": 164,
+                "fours": 7,
+                "sixes": 1
+              },
+              "player_b_key": "c__player__abdullah_shafique__eab8b",
+              "player_b_score": {
+                "runs": 74,
+                "balls": 195,
+                "fours": 10,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 150,
+                "balls": 355,
+                "fours": 17,
+                "sixes": 1,
+                "run_rate": 2.54
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [71, 3],
+              "end_overs": [86, 4],
+              "player_a_key": "b_azam",
+              "player_a_score": {
+                "runs": 34,
+                "balls": 48,
+                "fours": 5,
+                "sixes": 1
+              },
+              "player_b_key": "az_ali",
+              "player_b_score": {
+                "runs": 10,
+                "balls": 44,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 44,
+                "balls": 92,
+                "fours": 5,
+                "sixes": 1,
+                "run_rate": 2.87
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [86, 5],
+              "end_overs": [106, 3],
+              "player_a_key": "f_alam",
+              "player_a_score": {
+                "runs": 13,
+                "balls": 56,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 21,
+                "balls": 63,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 34,
+                "balls": 119,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 1.71
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [106, 4],
+              "end_overs": [110, 2],
+              "player_a_key": "m_rizwan",
+              "player_a_score": {
+                "runs": 1,
+                "balls": 14,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 7,
+                "balls": 9,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 8,
+                "balls": 23,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 2.09
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [110, 3],
+              "end_overs": [113, 4],
+              "player_a_key": "c__player__sajid_khan__9376a",
+              "player_a_score": {
+                "runs": 6,
+                "balls": 17,
+                "fours": 1,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 1,
+                "balls": 4,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 8,
+                "balls": 20,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 2.4
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [113, 5],
+              "end_overs": [115, 1],
+              "player_a_key": "nau_ali",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 4,
+                "balls": 6,
+                "fours": 1,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 4,
+                "balls": 9,
+                "fours": 1,
+                "sixes": 0,
+                "run_rate": 2.67
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [115, 2],
+              "end_overs": [115, 5],
+              "player_a_key": "has_ali",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 4,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 0,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 0,
+                "balls": 4,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 0.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [115, 6],
+              "end_overs": [116, 1],
+              "player_a_key": "se_afridi",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 1,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "b_azam",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 1,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 0,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 0.0
+              },
+              "is_completed": true
+            },
+            {
+              "begin_overs": [116, 2],
+              "end_overs": [116, 4],
+              "player_a_key": "nas_shah",
+              "player_a_score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0
+              },
+              "player_b_key": "se_afridi",
+              "player_b_score": {
+                "runs": 0,
+                "balls": 0,
+                "fours": 0,
+                "sixes": 0
+              },
+              "score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0,
+                "run_rate": 0.0
+              },
+              "is_completed": true
+            }
+          ]
+        }
+      },
+      "live": null,
+      "related_balls": {
+        "f11d71fd-a84f-47bb-952a-baa4c94ff33f": {
+          "key": "f11d71fd-a84f-47bb-952a-baa4c94ff33f",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [91, 6],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648207260.316
+        },
+        "4c30fd74-9512-4516-b8bf-1a62d7878e6b": {
+          "key": "4c30fd74-9512-4516-b8bf-1a62d7878e6b",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Naseem Shah: 1 run.",
+          "innings": "a_2",
+          "overs": [91, 3],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 1,
+            "is_dot_ball": false,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 1,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 1,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648207166.083
+        },
+        "df8d6fa4-c9c6-473e-b606-303defa34a03": {
+          "key": "df8d6fa4-c9c6-473e-b606-303defa34a03",
+          "ball_type": "bye",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: bye, 2 runs.",
+          "innings": "a_2",
+          "overs": [90, 2],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": false,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 2,
+            "extras": 2,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648206936.695
+        },
+        "002d2abf-f39b-44f2-af0b-325b740c3c1b": {
+          "key": "002d2abf-f39b-44f2-af0b-325b740c3c1b",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Naseem Shah: <b>Bowled!</b>. No runs.",
+          "innings": "a_2",
+          "overs": [92, 1],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "nas_shah", "wicket_type": "bowled" },
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648207354.913
+        },
+        "13fa0b53-7560-48f7-bb0f-479ca00136b4": {
+          "key": "13fa0b53-7560-48f7-bb0f-479ca00136b4",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [90, 6],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648207039.522
+        },
+        "8c3c7687-6535-4c0e-aedd-af6977fc5879": {
+          "key": "8c3c7687-6535-4c0e-aedd-af6977fc5879",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [91, 4],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648207206.84
+        },
+        "759af97b-f449-40c3-a9ce-9ae5fe490cf4": {
+          "key": "759af97b-f449-40c3-a9ce-9ae5fe490cf4",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Naseem Shah: No runs.",
+          "innings": "a_2",
+          "overs": [91, 1],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648207095.503
+        },
+        "76d31d8d-1213-4629-8ae8-b27b2b218436": {
+          "key": "76d31d8d-1213-4629-8ae8-b27b2b218436",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [90, 1],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648206905.159
+        },
+        "3609cdac-a22f-436a-aad4-cee5db7bbb5c": {
+          "key": "3609cdac-a22f-436a-aad4-cee5db7bbb5c",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [90, 5],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648207011.214
+        },
+        "a71662a7-cae7-41b1-a308-298090d6d1b1": {
+          "key": "a71662a7-cae7-41b1-a308-298090d6d1b1",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [91, 5],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648207240.021
+        },
+        "6249714a-ce66-40fc-b2ed-205c5160de08": {
+          "key": "6249714a-ce66-40fc-b2ed-205c5160de08",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [90, 3],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648206963.358
+        },
+        "71751939-54d4-42d4-9a19-d03cce461390": {
+          "key": "71751939-54d4-42d4-9a19-d03cce461390",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Swepson to Nauman Ali: No runs.",
+          "innings": "a_2",
+          "overs": [90, 4],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nas_shah",
+          "entry_time": 1648206984.776
+        },
+        "0bc236ca-5d05-4ff8-a566-aa4fe1a5d966": {
+          "key": "0bc236ca-5d05-4ff8-a566-aa4fe1a5d966",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Naseem Shah: No runs.",
+          "innings": "a_2",
+          "overs": [91, 2],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": false
+          },
+          "fielders": [],
+          "wicket": null,
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648207112.448
+        },
+        "a561bbfa-12fe-4f7b-8c6b-5d5ed03bd3fe": {
+          "key": "a561bbfa-12fe-4f7b-8c6b-5d5ed03bd3fe",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Shaheen Afridi to Marnus Labuschagne: <b>Wicket!</b>, Caught by Mohammad Rizwan. No runs.",
+          "innings": "b_1",
+          "overs": [2, 5],
+          "batsman": {
+            "player_key": "mar_labuschagne",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "m_rizwan",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "mar_labuschagne",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1647839797.665
+        },
+        "9d73393d-c48a-4065-8f84-dca20d998f9d": {
+          "key": "9d73393d-c48a-4065-8f84-dca20d998f9d",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Nauman Ali to Marnus Labuschagne: <b>Wicket!</b>, Caught by Sajid Khan. No runs.",
+          "innings": "b_2",
+          "overs": [47, 3],
+          "batsman": {
+            "player_key": "mar_labuschagne",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "c__player__sajid_khan__9376a",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "mar_labuschagne",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1648112542.478
+        },
+        "0a0a383c-29ce-411c-baae-ac26bec7f8c9": {
+          "key": "0a0a383c-29ce-411c-baae-ac26bec7f8c9",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Starc to Babar Azam: <b>LBW!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [116, 1],
+          "batsman": {
+            "player_key": "b_azam",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "b_azam", "wicket_type": "lbw" },
+          "non_striker_key": "se_afridi",
+          "entry_time": 1648036997.242
+        },
+        "83ea2089-f791-4be6-b08c-755da5222d95": {
+          "key": "83ea2089-f791-4be6-b08c-755da5222d95",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Babar Azam: <b>Wicket!</b>, Caught by Steven Smith. No runs.",
+          "innings": "a_2",
+          "overs": [83, 3],
+          "batsman": {
+            "player_key": "b_azam",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "s_smith",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "b_azam", "wicket_type": "caught" },
+          "non_striker_key": "c__player__sajid_khan__9376a",
+          "entry_time": 1648204673.096
+        },
+        "064779db-7385-4912-ae69-dc1e586ea9ef": {
+          "key": "064779db-7385-4912-ae69-dc1e586ea9ef",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Hasan Ali: <b>Wicket!</b>, Caught by Steven Smith. No runs.",
+          "innings": "a_1",
+          "overs": [115, 5],
+          "batsman": {
+            "player_key": "has_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "s_smith",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "has_ali", "wicket_type": "caught" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648036748.341
+        },
+        "5b6160d5-9ea7-42d1-b0e2-55cc6e7f6f6a": {
+          "key": "5b6160d5-9ea7-42d1-b0e2-55cc6e7f6f6a",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Hasan Ali: <b>Bowled!</b>. No runs.",
+          "innings": "a_2",
+          "overs": [87, 6],
+          "batsman": {
+            "player_key": "has_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "has_ali", "wicket_type": "bowled" },
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648206075.795
+        },
+        "de6afdeb-5637-41fe-8315-a71b970861ae": {
+          "key": "de6afdeb-5637-41fe-8315-a71b970861ae",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Nauman Ali: <b>LBW!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [115, 1],
+          "batsman": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "p_cummins",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": false,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "nau_ali", "wicket_type": "lbw" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648036454.148
+        },
+        "23553d73-13b5-423f-8315-42a44c60dcdd": {
+          "key": "23553d73-13b5-423f-8315-42a44c60dcdd",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Starc to Naseem Shah: <b>Bowled!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [116, 4],
+          "batsman": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "nas_shah", "wicket_type": "bowled" },
+          "non_striker_key": "se_afridi",
+          "entry_time": 1648037257.711
+        },
+        "e526a7df-b42a-413a-beb4-f4dc69d8cbc0": {
+          "key": "e526a7df-b42a-413a-beb4-f4dc69d8cbc0",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Naseem Shah to Steven Smith: <b>LBW!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [56, 2],
+          "batsman": {
+            "player_key": "s_smith",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "s_smith", "wicket_type": "lbw" },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1647857317.741
+        },
+        "94246819-2426-4c84-b0fd-b27055f3e374": {
+          "key": "94246819-2426-4c84-b0fd-b27055f3e374",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Naseem Shah to Steven Smith: <b>Wicket!</b>, Caught by Mohammad Rizwan. No runs.",
+          "innings": "b_2",
+          "overs": [58, 5],
+          "batsman": {
+            "player_key": "s_smith",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "m_rizwan",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "s_smith", "wicket_type": "caught" },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1648116931.857
+        },
+        "18ada78e-4d07-4471-b9f6-64192ef6846f": {
+          "key": "18ada78e-4d07-4471-b9f6-64192ef6846f",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Shaheen Afridi to David Warner: <b>LBW!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [2, 3],
+          "batsman": {
+            "player_key": "d_warner",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "d_warner", "wicket_type": "lbw" },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1647839558.514
+        },
+        "537b50d4-fe90-4034-a67a-af4d9a19ffc1": {
+          "key": "537b50d4-fe90-4034-a67a-af4d9a19ffc1",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Shaheen Afridi to David Warner: <b>Bowled!</b>. No runs.",
+          "innings": "b_2",
+          "overs": [28, 1],
+          "batsman": {
+            "player_key": "d_warner",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "d_warner", "wicket_type": "bowled" },
+          "non_striker_key": "u_khawaja",
+          "entry_time": 1648104904.05
+        },
+        "9e35a7bf-5274-4acf-ad80-2b8ac3b7c3e3": {
+          "key": "9e35a7bf-5274-4acf-ad80-2b8ac3b7c3e3",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Naseem Shah to Cameron Green: <b>Bowled!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [124, 5],
+          "batsman": {
+            "player_key": "cam_green",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "cam_green", "wicket_type": "bowled" },
+          "non_striker_key": "m_starc",
+          "entry_time": 1647937414.653
+        },
+        "b76edf61-7b3a-4579-a320-db8fa03a04ec": {
+          "key": "b76edf61-7b3a-4579-a320-db8fa03a04ec",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Sajid Khan to Usman Khawaja: <b>Wicket!</b>, Caught by Babar Azam. No runs.",
+          "innings": "b_1",
+          "overs": [74, 1],
+          "batsman": {
+            "player_key": "u_khawaja",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "c__player__sajid_khan__9376a",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "b_azam",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "u_khawaja", "wicket_type": "caught" },
+          "non_striker_key": "t_head",
+          "entry_time": 1647862042.204
+        },
+        "7ded3285-6c05-4a87-a22a-0d57460985ce": {
+          "key": "7ded3285-6c05-4a87-a22a-0d57460985ce",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Naseem Shah to Travis Head: <b>Wicket!</b>, Caught by Mohammad Rizwan. No runs.",
+          "innings": "b_1",
+          "overs": [80, 6],
+          "batsman": {
+            "player_key": "t_head",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "m_rizwan",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "t_head", "wicket_type": "caught" },
+          "non_striker_key": "cam_green",
+          "entry_time": 1647863726.736
+        },
+        "33631fde-978a-4ce4-84d9-f2dad7f98364": {
+          "key": "33631fde-978a-4ce4-84d9-f2dad7f98364",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Shaheen Afridi to Mitchell Swepson: <b>Bowled!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [133, 3],
+          "batsman": {
+            "player_key": "m_swepson",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "m_swepson", "wicket_type": "bowled" },
+          "non_striker_key": "p_cummins",
+          "entry_time": 1647940467.686
+        },
+        "dc669240-c2cc-416c-9374-cf065b50f3ac": {
+          "key": "dc669240-c2cc-416c-9374-cf065b50f3ac",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Shaheen Afridi to Mitchell Starc: <b>Wicket!</b>, Caught by Nauman Ali. No runs.",
+          "innings": "b_1",
+          "overs": [129, 6],
+          "batsman": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "nau_ali",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "m_starc", "wicket_type": "caught" },
+          "non_striker_key": "p_cummins",
+          "entry_time": 1647940054.333
+        },
+        "cc68a2be-a989-4eb9-a82a-9cbab3ffc2b5": {
+          "key": "cc68a2be-a989-4eb9-a82a-9cbab3ffc2b5",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Starc to Mohammad Rizwan: <b>Bowled!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [110, 2],
+          "batsman": {
+            "player_key": "m_rizwan",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "m_rizwan", "wicket_type": "bowled" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648034668.882
+        },
+        "15ec765b-4d96-4bff-af33-ac7cd2bc77a1": {
+          "key": "15ec765b-4d96-4bff-af33-ac7cd2bc77a1",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Mohammad Rizwan: <b>LBW!</b>. No runs.",
+          "innings": "a_2",
+          "overs": [70, 3],
+          "batsman": {
+            "player_key": "m_rizwan",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "m_rizwan", "wicket_type": "lbw" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648200318.584
+        },
+        "24597899-245a-418f-b8d5-a563d5f37a69": {
+          "key": "24597899-245a-418f-b8d5-a563d5f37a69",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Sajid Khan: <b>Bowled!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [113, 4],
+          "batsman": {
+            "player_key": "c__player__sajid_khan__9376a",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": {
+            "player_key": "c__player__sajid_khan__9376a",
+            "wicket_type": "bowled"
+          },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648035868.768
+        },
+        "7a3ae3b3-b7be-4f28-93e1-6bf5806e0c45": {
+          "key": "7a3ae3b3-b7be-4f28-93e1-6bf5806e0c45",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Starc to Sajid Khan: <b>Wicket!</b>, Caught by Usman Khawaja. No runs.",
+          "innings": "a_2",
+          "overs": [84, 1],
+          "batsman": {
+            "player_key": "c__player__sajid_khan__9376a",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "u_khawaja",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "c__player__sajid_khan__9376a",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648205133.606
+        },
+        "12690ad3-c759-4d54-a18a-351c4aad14c0": {
+          "key": "12690ad3-c759-4d54-a18a-351c4aad14c0",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Abdullah Shafique: <b>Wicket!</b>, Caught by Alex Carey. No runs.",
+          "innings": "a_1",
+          "overs": [71, 2],
+          "batsman": {
+            "player_key": "c__player__abdullah_shafique__eab8b",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "ale_carey",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "c__player__abdullah_shafique__eab8b",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "az_ali",
+          "entry_time": 1648022698.656
+        },
+        "77b100b2-4aee-4a57-b475-ca1914651f02": {
+          "key": "77b100b2-4aee-4a57-b475-ca1914651f02",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Cameron Green to Abdullah Shafique: <b>Wicket!</b>, Caught by . No runs.",
+          "innings": "a_2",
+          "overs": [30, 5],
+          "batsman": {
+            "player_key": "c__player__abdullah_shafique__eab8b",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "cam_green",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "ale_carey",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": {
+            "player_key": "c__player__abdullah_shafique__eab8b",
+            "wicket_type": "caught"
+          },
+          "non_striker_key": "i_haq",
+          "entry_time": 1648185398.986
+        },
+        "f2a55084-6959-4230-81de-cb0b1d7d7231": {
+          "key": "f2a55084-6959-4230-81de-cb0b1d7d7231",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Mitchell Starc to Fawad Alam: <b>Bowled!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [106, 3],
+          "batsman": {
+            "player_key": "f_alam",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "m_starc",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "f_alam", "wicket_type": "bowled" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648033205.875
+        },
+        "b34f8a7c-5467-4fad-9b71-2e71123bdf30": {
+          "key": "b34f8a7c-5467-4fad-9b71-2e71123bdf30",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Fawad Alam: No runs.",
+          "innings": "a_2",
+          "overs": [68, 4],
+          "batsman": {
+            "player_key": "f_alam",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "f_alam", "wicket_type": "lbw" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648199647.964
+        },
+        "96c9460f-9d94-404c-9983-5cc9cd990d8a": {
+          "key": "96c9460f-9d94-404c-9983-5cc9cd990d8a",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Shaheen Afridi: <b>Wicket!</b>, Caught by Mitchell Swepson. No runs.",
+          "innings": "a_2",
+          "overs": [89, 3],
+          "batsman": {
+            "player_key": "se_afridi",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "m_swepson",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "se_afridi", "wicket_type": "caught" },
+          "non_striker_key": "nau_ali",
+          "entry_time": 1648206677.541
+        },
+        "1bcee505-8623-484e-bb22-2323e646feea": {
+          "key": "1bcee505-8623-484e-bb22-2323e646feea",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Azhar Ali: <b>Wicket!</b>, Caught by Pat Cummins. No runs.",
+          "innings": "a_1",
+          "overs": [86, 4],
+          "batsman": {
+            "player_key": "az_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "p_cummins",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "az_ali", "wicket_type": "caught" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648026807.249
+        },
+        "896a5c41-3dea-4c0f-a7f9-f66f68d44eb9": {
+          "key": "896a5c41-3dea-4c0f-a7f9-f66f68d44eb9",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Azhar Ali: No runs.",
+          "innings": "a_2",
+          "overs": [45, 2],
+          "batsman": {
+            "player_key": "az_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "s_smith",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "az_ali", "wicket_type": "caught" },
+          "non_striker_key": "i_haq",
+          "entry_time": 1648189895.934
+        },
+        "548ef594-5355-4315-ab6a-e5aa31c252d2": {
+          "key": "548ef594-5355-4315-ab6a-e5aa31c252d2",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Naseem Shah to Nathan Michael Lyon: <b>Bowled!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [130, 6],
+          "batsman": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nas_shah",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "n_lyon", "wicket_type": "bowled" },
+          "non_striker_key": "p_cummins",
+          "entry_time": 1647940127.695
+        },
+        "495dbd5f-c4f0-48ee-82f6-95781dee8ac7": {
+          "key": "495dbd5f-c4f0-48ee-82f6-95781dee8ac7",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Pat Cummins to Imam-ul-Haq: <b>LBW!</b>. No runs.",
+          "innings": "a_1",
+          "overs": [12, 1],
+          "batsman": {
+            "player_key": "i_haq",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "p_cummins",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "i_haq", "wicket_type": "lbw" },
+          "non_striker_key": "c__player__abdullah_shafique__eab8b",
+          "entry_time": 1647944942.821
+        },
+        "6f36bd30-b967-40df-bdd7-7511c703831a": {
+          "key": "6f36bd30-b967-40df-bdd7-7511c703831a",
+          "ball_type": "normal",
+          "batting_team": "a",
+          "comment": "Nathan Michael Lyon to Imam-ul-Haq: <b>Wicket!</b>, Caught by . No runs.",
+          "innings": "a_2",
+          "overs": [61, 2],
+          "batsman": {
+            "player_key": "i_haq",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "n_lyon",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [
+            {
+              "player_key": "mar_labuschagne",
+              "is_run_out": false,
+              "is_stumps": false,
+              "is_catch": true,
+              "is_assists": false
+            }
+          ],
+          "wicket": { "player_key": "i_haq", "wicket_type": "caught" },
+          "non_striker_key": "b_azam",
+          "entry_time": 1648197448.023
+        },
+        "44604cf0-85cc-47d2-8fad-83777735b1ed": {
+          "key": "44604cf0-85cc-47d2-8fad-83777735b1ed",
+          "ball_type": "normal",
+          "batting_team": "b",
+          "comment": "Nauman Ali to Alex Carey: <b>LBW!</b>. No runs.",
+          "innings": "b_1",
+          "overs": [119, 6],
+          "batsman": {
+            "player_key": "ale_carey",
+            "ball_count": 1,
+            "runs": 0,
+            "is_dot_ball": true,
+            "is_four": false,
+            "is_six": false
+          },
+          "bowler": {
+            "player_key": "nau_ali",
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "team_score": {
+            "ball_count": 1,
+            "runs": 0,
+            "extras": 0,
+            "is_wicket": true
+          },
+          "fielders": [],
+          "wicket": { "player_key": "ale_carey", "wicket_type": "lbw" },
+          "non_striker_key": "cam_green",
+          "entry_time": 1647936074.983
+        }
+      }
+    },
+    "players": {
+      "mar_labuschagne": {
+        "player": {
+          "key": "mar_labuschagne",
+          "name": "Marnus Labuschagne",
+          "jersey_name": "Marnus Labuschagne",
+          "legal_name": "Marnus Labuschagne",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": "leg_break"
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 2,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 2,
+                "strike_rate": 0.0
+              },
+              "dismissal": {
+                "overs": [2, 5],
+                "team_runs": 8,
+                "wicket_number": 2,
+                "msg": "c Mohammad Rizwan b Shaheen Afridi",
+                "ball_key": "a561bbfa-12fe-4f7b-8c6b-5d5ed03bd3fe"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 36,
+                "balls": 58,
+                "fours": 6,
+                "sixes": 0,
+                "dot_balls": 40,
+                "strike_rate": 62.07
+              },
+              "dismissal": {
+                "overs": [47, 3],
+                "team_runs": 161,
+                "wicket_number": 2,
+                "msg": "c Sajid Khan b Nauman Ali",
+                "ball_key": "9d73393d-c48a-4065-8f84-dca20d998f9d"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 12,
+                "runs": 10,
+                "economy": 5.0,
+                "extras": 0,
+                "wickets": 0,
+                "maiden_overs": 0,
+                "overs": [2, 0],
+                "balls_breakup": {
+                  "dot_balls": 6,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 1,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "b_azam": {
+        "player": {
+          "key": "b_azam",
+          "name": "Babar Azam",
+          "jersey_name": "Babar Azam",
+          "legal_name": "Babar Azam",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 67,
+                "balls": 131,
+                "fours": 6,
+                "sixes": 1,
+                "dot_balls": 95,
+                "strike_rate": 51.15
+              },
+              "dismissal": {
+                "overs": [116, 1],
+                "team_runs": 268,
+                "wicket_number": 9,
+                "msg": "lbw b Mitchell Starc",
+                "ball_key": "0a0a383c-29ce-411c-baae-ac26bec7f8c9"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 6,
+                "runs": 2,
+                "economy": 2.0,
+                "extras": 0,
+                "wickets": 0,
+                "maiden_overs": 0,
+                "overs": [1, 0],
+                "balls_breakup": {
+                  "dot_balls": 4,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 0,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 55,
+                "balls": 104,
+                "fours": 6,
+                "sixes": 0,
+                "dot_balls": 70,
+                "strike_rate": 52.88
+              },
+              "dismissal": {
+                "overs": [83, 3],
+                "team_runs": 213,
+                "wicket_number": 6,
+                "msg": "c Steven Smith b Nathan Michael Lyon",
+                "ball_key": "83ea2089-f791-4be6-b08c-755da5222d95"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "has_ali": {
+        "player": {
+          "key": "has_ali",
+          "name": "Hasan Ali",
+          "jersey_name": "Hasan Ali",
+          "legal_name": "Hasan Ali",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 4,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 4,
+                "strike_rate": 0.0
+              },
+              "dismissal": {
+                "overs": [115, 5],
+                "team_runs": 268,
+                "wicket_number": 8,
+                "msg": "c Steven Smith b Pat Cummins",
+                "ball_key": "064779db-7385-4912-ae69-dc1e586ea9ef"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 120,
+                "runs": 61,
+                "economy": 3.05,
+                "extras": 3,
+                "wickets": 0,
+                "maiden_overs": 5,
+                "overs": [20, 0],
+                "balls_breakup": {
+                  "dot_balls": 95,
+                  "wides": 0,
+                  "no_balls": 3,
+                  "fours": 11,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 13,
+                "balls": 17,
+                "fours": 1,
+                "sixes": 1,
+                "dot_balls": 13,
+                "strike_rate": 76.47
+              },
+              "dismissal": {
+                "overs": [87, 6],
+                "team_runs": 226,
+                "wicket_number": 8,
+                "msg": "bowled b Nathan Michael Lyon",
+                "ball_key": "5b6160d5-9ea7-42d1-b0e2-55cc6e7f6f6a"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 66,
+                "runs": 37,
+                "economy": 3.36,
+                "extras": 0,
+                "wickets": 0,
+                "maiden_overs": 3,
+                "overs": [11, 0],
+                "balls_breakup": {
+                  "dot_balls": 47,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 5,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "s_masood": {
+        "player": {
+          "key": "s_masood",
+          "name": "Shan Masood",
+          "jersey_name": "Shan Masood",
+          "legal_name": "Shan Masood",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium_fast",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "nau_ali": {
+        "player": {
+          "key": "nau_ali",
+          "name": "Nauman Ali",
+          "jersey_name": "Nauman Ali",
+          "legal_name": "Nauman Ali",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 3,
+                "strike_rate": 0.0
+              },
+              "dismissal": {
+                "overs": [115, 1],
+                "team_runs": 268,
+                "wicket_number": 7,
+                "msg": "lbw b Pat Cummins",
+                "ball_key": "de6afdeb-5637-41fe-8315-a71b970861ae"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 144,
+                "runs": 77,
+                "economy": 3.21,
+                "extras": 3,
+                "wickets": 1,
+                "maiden_overs": 4,
+                "overs": [24, 0],
+                "balls_breakup": {
+                  "dot_balls": 101,
+                  "wides": 0,
+                  "no_balls": 3,
+                  "fours": 6,
+                  "sixes": 1
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 1,
+                "balls": 20,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 18,
+                "strike_rate": 5.0
+              },
+              "dismissal": null
+            },
+            "bowling": {
+              "score": {
+                "balls": 60,
+                "runs": 55,
+                "economy": 5.5,
+                "extras": 0,
+                "wickets": 1,
+                "maiden_overs": 0,
+                "overs": [10, 0],
+                "balls_breakup": {
+                  "dot_balls": 29,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 3,
+                  "sixes": 2
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "nas_shah": {
+        "player": {
+          "key": "nas_shah",
+          "name": "Naseem Shah",
+          "jersey_name": "Naseem Shah",
+          "legal_name": "Naseem Shah",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "fast_medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 3,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 3,
+                "strike_rate": 0.0
+              },
+              "dismissal": {
+                "overs": [116, 4],
+                "team_runs": 268,
+                "wicket_number": 10,
+                "msg": "bowled b Mitchell Starc",
+                "ball_key": "23553d73-13b5-423f-8315-42a44c60dcdd"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 186,
+                "runs": 58,
+                "economy": 1.87,
+                "extras": 2,
+                "wickets": 4,
+                "maiden_overs": 13,
+                "overs": [31, 0],
+                "balls_breakup": {
+                  "dot_balls": 162,
+                  "wides": 0,
+                  "no_balls": 2,
+                  "fours": 8,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 1,
+                "balls": 7,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 6,
+                "strike_rate": 14.29
+              },
+              "dismissal": {
+                "overs": [92, 1],
+                "team_runs": 235,
+                "wicket_number": 10,
+                "msg": "bowled b Pat Cummins",
+                "ball_key": "002d2abf-f39b-44f2-af0b-325b740c3c1b"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 72,
+                "runs": 23,
+                "economy": 1.92,
+                "extras": 1,
+                "wickets": 1,
+                "maiden_overs": 3,
+                "overs": [12, 0],
+                "balls_breakup": {
+                  "dot_balls": 55,
+                  "wides": 0,
+                  "no_balls": 1,
+                  "fours": 0,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "s_smith": {
+        "player": {
+          "key": "s_smith",
+          "name": "Steven Smith",
+          "jersey_name": "Steven Smith",
+          "legal_name": "Steven Smith",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 59,
+                "balls": 169,
+                "fours": 6,
+                "sixes": 0,
+                "dot_balls": 132,
+                "strike_rate": 34.91
+              },
+              "dismissal": {
+                "overs": [56, 2],
+                "team_runs": 146,
+                "wicket_number": 3,
+                "msg": "lbw b Naseem Shah",
+                "ball_key": "e526a7df-b42a-413a-beb4-f4dc69d8cbc0"
+              }
+            },
+            "bowling": null,
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 17,
+                "balls": 27,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 14,
+                "strike_rate": 62.96
+              },
+              "dismissal": {
+                "overs": [58, 5],
+                "team_runs": 216,
+                "wicket_number": 3,
+                "msg": "c Mohammad Rizwan b Naseem Shah",
+                "ball_key": "94246819-2426-4c84-b0fd-b27055f3e374"
+              }
+            },
+            "bowling": null,
+            "fielding": { "catches": 2, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "fa_ashraf": {
+        "player": {
+          "key": "fa_ashraf",
+          "name": "Faheem Ashraf",
+          "jersey_name": "Faheem Ashraf",
+          "legal_name": "Faheem Ashraf",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "s_boland": {
+        "player": {
+          "key": "s_boland",
+          "name": "Scott Boland",
+          "jersey_name": "Scott Boland",
+          "legal_name": "Scott Boland",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium_fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "p_cummins": {
+        "player": {
+          "key": "p_cummins",
+          "name": "Pat Cummins",
+          "jersey_name": "Pat Cummins",
+          "legal_name": "Pat Cummins",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 11,
+                "balls": 25,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 18,
+                "strike_rate": 44.0
+              },
+              "dismissal": null
+            },
+            "bowling": {
+              "score": {
+                "balls": 144,
+                "runs": 56,
+                "economy": 2.33,
+                "extras": 3,
+                "wickets": 5,
+                "maiden_overs": 8,
+                "overs": [24, 0],
+                "balls_breakup": {
+                  "dot_balls": 125,
+                  "wides": 0,
+                  "no_balls": 3,
+                  "fours": 9,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": null,
+            "bowling": {
+              "score": {
+                "balls": 91,
+                "runs": 23,
+                "economy": 1.52,
+                "extras": 0,
+                "wickets": 3,
+                "maiden_overs": 6,
+                "overs": [15, 1],
+                "balls_breakup": {
+                  "dot_balls": 79,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 3,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "d_warner": {
+        "player": {
+          "key": "d_warner",
+          "name": "David Warner",
+          "jersey_name": "David Warner",
+          "legal_name": "David Warner",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 7,
+                "balls": 13,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 10,
+                "strike_rate": 53.85
+              },
+              "dismissal": {
+                "overs": [2, 3],
+                "team_runs": 8,
+                "wicket_number": 1,
+                "msg": "lbw b Shaheen Afridi",
+                "ball_key": "18ada78e-4d07-4471-b9f6-64192ef6846f"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 51,
+                "balls": 91,
+                "fours": 6,
+                "sixes": 1,
+                "dot_balls": 66,
+                "strike_rate": 56.04
+              },
+              "dismissal": {
+                "overs": [28, 1],
+                "team_runs": 96,
+                "wicket_number": 1,
+                "msg": "bowled b Shaheen Afridi",
+                "ball_key": "537b50d4-fe90-4034-a67a-af4d9a19ffc1"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "c__player__mohammad_wasim_jr__85c80": {
+        "player": {
+          "key": "c__player__mohammad_wasim_jr__85c80",
+          "name": "Mohammad Wasim Jr",
+          "jersey_name": "Mohammad Wasim Jr",
+          "legal_name": "Mohammad Wasim Jr",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "m_marsh": {
+        "player": {
+          "key": "m_marsh",
+          "name": "Mitchell Marsh",
+          "jersey_name": "Mitchell Marsh",
+          "legal_name": "Mitchell Marsh",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium_fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "cam_green": {
+        "player": {
+          "key": "cam_green",
+          "name": "Cameron Green",
+          "jersey_name": "Cameron Green",
+          "legal_name": "Cameron Green",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium_fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 79,
+                "balls": 163,
+                "fours": 9,
+                "sixes": 0,
+                "dot_balls": 121,
+                "strike_rate": 48.47
+              },
+              "dismissal": {
+                "overs": [124, 5],
+                "team_runs": 353,
+                "wicket_number": 7,
+                "msg": "bowled b Naseem Shah",
+                "ball_key": "9e35a7bf-5274-4acf-ad80-2b8ac3b7c3e3"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 84,
+                "runs": 37,
+                "economy": 2.64,
+                "extras": 2,
+                "wickets": 0,
+                "maiden_overs": 4,
+                "overs": [14, 0],
+                "balls_breakup": {
+                  "dot_balls": 67,
+                  "wides": 0,
+                  "no_balls": 2,
+                  "fours": 5,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": null,
+            "bowling": {
+              "score": {
+                "balls": 66,
+                "runs": 18,
+                "economy": 1.64,
+                "extras": 2,
+                "wickets": 1,
+                "maiden_overs": 4,
+                "overs": [11, 0],
+                "balls_breakup": {
+                  "dot_balls": 56,
+                  "wides": 1,
+                  "no_balls": 1,
+                  "fours": 2,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "u_khawaja": {
+        "player": {
+          "key": "u_khawaja",
+          "name": "Usman Khawaja",
+          "jersey_name": "Usman Khawaja",
+          "legal_name": "Usman Khawaja",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 91,
+                "balls": 219,
+                "fours": 9,
+                "sixes": 1,
+                "dot_balls": 166,
+                "strike_rate": 41.55
+              },
+              "dismissal": {
+                "overs": [74, 1],
+                "team_runs": 187,
+                "wicket_number": 4,
+                "msg": "c Babar Azam b Sajid Khan",
+                "ball_key": "b76edf61-7b3a-4579-a320-db8fa03a04ec"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 104,
+                "balls": 178,
+                "fours": 8,
+                "sixes": 0,
+                "dot_balls": 111,
+                "strike_rate": 58.43
+              },
+              "dismissal": null
+            },
+            "bowling": null,
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "t_head": {
+        "player": {
+          "key": "t_head",
+          "name": "Travis Head",
+          "jersey_name": "Travis Head",
+          "legal_name": "Travis Head",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": "off_break"
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 26,
+                "balls": 70,
+                "fours": 4,
+                "sixes": 0,
+                "dot_balls": 57,
+                "strike_rate": 37.14
+              },
+              "dismissal": {
+                "overs": [80, 6],
+                "team_runs": 206,
+                "wicket_number": 5,
+                "msg": "c Mohammad Rizwan b Naseem Shah",
+                "ball_key": "7ded3285-6c05-4a87-a22a-0d57460985ce"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 11,
+                "balls": 7,
+                "fours": 1,
+                "sixes": 1,
+                "dot_balls": 4,
+                "strike_rate": 157.14
+              },
+              "dismissal": null
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "s_shakeel": {
+        "player": {
+          "key": "s_shakeel",
+          "name": "Saud Shakeel",
+          "jersey_name": "Saud Shakeel",
+          "legal_name": "Saud Shakeel",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "ift_ahmed": {
+        "player": {
+          "key": "ift_ahmed",
+          "name": "Iftikhar Ahmed",
+          "jersey_name": "Iftikhar Ahmed",
+          "legal_name": "Iftikhar Ahmed",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "m_swepson": {
+        "player": {
+          "key": "m_swepson",
+          "name": "Mitchell Swepson",
+          "jersey_name": "Mitchell Swepson",
+          "legal_name": "Mitchell Swepson",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "slow",
+            "bowling_type": "orthodox"
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 9,
+                "balls": 7,
+                "fours": 2,
+                "sixes": 0,
+                "dot_balls": 4,
+                "strike_rate": 128.57
+              },
+              "dismissal": {
+                "overs": [133, 3],
+                "team_runs": 391,
+                "wicket_number": 10,
+                "msg": "bowled b Shaheen Afridi",
+                "ball_key": "33631fde-978a-4ce4-84d9-f2dad7f98364"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 108,
+                "runs": 42,
+                "economy": 2.33,
+                "extras": 1,
+                "wickets": 0,
+                "maiden_overs": 2,
+                "overs": [18, 0],
+                "balls_breakup": {
+                  "dot_balls": 79,
+                  "wides": 0,
+                  "no_balls": 1,
+                  "fours": 3,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": null,
+            "bowling": {
+              "score": {
+                "balls": 60,
+                "runs": 36,
+                "economy": 3.6,
+                "extras": 0,
+                "wickets": 0,
+                "maiden_overs": 1,
+                "overs": [10, 0],
+                "balls_breakup": {
+                  "dot_balls": 42,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 3,
+                  "sixes": 1
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "m_starc": {
+        "player": {
+          "key": "m_starc",
+          "name": "Mitchell Starc",
+          "jersey_name": "Mitchell Starc",
+          "legal_name": "Mitchell Starc",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 13,
+                "balls": 33,
+                "fours": 2,
+                "sixes": 0,
+                "dot_balls": 27,
+                "strike_rate": 39.39
+              },
+              "dismissal": {
+                "overs": [129, 6],
+                "team_runs": 369,
+                "wicket_number": 8,
+                "msg": "c Nauman Ali b Shaheen Afridi",
+                "ball_key": "dc669240-c2cc-416c-9374-cf065b50f3ac"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 124,
+                "runs": 33,
+                "economy": 1.6,
+                "extras": 0,
+                "wickets": 4,
+                "maiden_overs": 6,
+                "overs": [20, 4],
+                "balls_breakup": {
+                  "dot_balls": 103,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 2,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": null,
+            "bowling": {
+              "score": {
+                "balls": 102,
+                "runs": 53,
+                "economy": 3.12,
+                "extras": 0,
+                "wickets": 1,
+                "maiden_overs": 6,
+                "overs": [17, 0],
+                "balls_breakup": {
+                  "dot_balls": 78,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 9,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "m_rizwan": {
+        "player": {
+          "key": "m_rizwan",
+          "name": "Mohammad Rizwan",
+          "jersey_name": "Mohammad Rizwan",
+          "legal_name": "Mohammad Rizwan",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "keeper",
+          "roles": ["keeper"],
+          "batting_style": "right_hand",
+          "bowling_style": null,
+          "skills": ["keep", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 1,
+                "balls": 14,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 13,
+                "strike_rate": 7.14
+              },
+              "dismissal": {
+                "overs": [110, 2],
+                "team_runs": 256,
+                "wicket_number": 5,
+                "msg": "bowled b Mitchell Starc",
+                "ball_key": "cc68a2be-a989-4eb9-a82a-9cbab3ffc2b5"
+              }
+            },
+            "bowling": null,
+            "fielding": { "catches": 2, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 6,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 6,
+                "strike_rate": 0.0
+              },
+              "dismissal": {
+                "overs": [70, 3],
+                "team_runs": 167,
+                "wicket_number": 5,
+                "msg": "lbw b Pat Cummins",
+                "ball_key": "15ec765b-4d96-4bff-af33-ac7cd2bc77a1"
+              }
+            },
+            "bowling": null,
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "c__player__zahid_mahmood__a9349": {
+        "player": {
+          "key": "c__player__zahid_mahmood__a9349",
+          "name": "Zahid Mahmood",
+          "jersey_name": "Zahid Mahmood",
+          "legal_name": "Zahid Mahmood",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "slow",
+            "bowling_type": "leg_break"
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "c__player__sajid_khan__9376a": {
+        "player": {
+          "key": "c__player__sajid_khan__9376a",
+          "name": "Sajid Khan",
+          "jersey_name": "Sajid Khan",
+          "legal_name": "Sajid Khan",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": "off_break"
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 6,
+                "balls": 17,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 13,
+                "strike_rate": 35.29
+              },
+              "dismissal": {
+                "overs": [113, 4],
+                "team_runs": 264,
+                "wicket_number": 6,
+                "msg": "bowled b Pat Cummins",
+                "ball_key": "24597899-245a-418f-b8d5-a563d5f37a69"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 198,
+                "runs": 97,
+                "economy": 2.94,
+                "extras": 0,
+                "wickets": 1,
+                "maiden_overs": 4,
+                "overs": [33, 0],
+                "balls_breakup": {
+                  "dot_balls": 140,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 10,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 21,
+                "balls": 47,
+                "fours": 4,
+                "sixes": 0,
+                "dot_balls": 38,
+                "strike_rate": 44.68
+              },
+              "dismissal": {
+                "overs": [84, 1],
+                "team_runs": 213,
+                "wicket_number": 7,
+                "msg": "c Usman Khawaja b Mitchell Starc",
+                "ball_key": "7a3ae3b3-b7be-4f28-93e1-6bf5806e0c45"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 96,
+                "runs": 60,
+                "economy": 3.75,
+                "extras": 0,
+                "wickets": 0,
+                "maiden_overs": 1,
+                "overs": [16, 0],
+                "balls_breakup": {
+                  "dot_balls": 60,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 6,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "jo_inglis": {
+        "player": {
+          "key": "jo_inglis",
+          "name": "Josh Inglis",
+          "jersey_name": "Josh Inglis",
+          "legal_name": "Josh Inglis",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "keeper",
+          "roles": ["keeper"],
+          "batting_style": "right_hand",
+          "bowling_style": null,
+          "skills": ["keep", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "c__player__abdullah_shafique__eab8b": {
+        "player": {
+          "key": "c__player__abdullah_shafique__eab8b",
+          "name": "Abdullah Shafique",
+          "jersey_name": "Abdullah Shafique",
+          "legal_name": "Abdullah Shafique",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "right_hand",
+          "bowling_style": null,
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 81,
+                "balls": 228,
+                "fours": 11,
+                "sixes": 0,
+                "dot_balls": 183,
+                "strike_rate": 35.53
+              },
+              "dismissal": {
+                "overs": [71, 2],
+                "team_runs": 170,
+                "wicket_number": 2,
+                "msg": "c Alex Carey b Nathan Michael Lyon",
+                "ball_key": "12690ad3-c759-4d54-a18a-351c4aad14c0"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 27,
+                "balls": 80,
+                "fours": 3,
+                "sixes": 1,
+                "dot_balls": 65,
+                "strike_rate": 33.75
+              },
+              "dismissal": {
+                "overs": [30, 5],
+                "team_runs": 77,
+                "wicket_number": 1,
+                "msg": "c Alex Carey b Cameron Green",
+                "ball_key": "77b100b2-4aee-4a57-b475-ca1914651f02"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "f_alam": {
+        "player": {
+          "key": "f_alam",
+          "name": "Fawad Alam",
+          "jersey_name": "Fawad Alam",
+          "legal_name": "Fawad Alam",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "slow",
+            "bowling_type": "orthodox"
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 13,
+                "balls": 56,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 48,
+                "strike_rate": 23.21
+              },
+              "dismissal": {
+                "overs": [106, 3],
+                "team_runs": 248,
+                "wicket_number": 4,
+                "msg": "bowled b Mitchell Starc",
+                "ball_key": "f2a55084-6959-4230-81de-cb0b1d7d7231"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 11,
+                "balls": 20,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 14,
+                "strike_rate": 55.0
+              },
+              "dismissal": {
+                "overs": [68, 4],
+                "team_runs": 165,
+                "wicket_number": 4,
+                "msg": "lbw b Pat Cummins",
+                "ball_key": "b34f8a7c-5467-4fad-9b71-2e71123bdf30"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "a_agar": {
+        "player": {
+          "key": "a_agar",
+          "name": "Ashton Agar",
+          "jersey_name": "Ashton Agar",
+          "legal_name": "Ashton Agar",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "all_rounder",
+          "roles": ["all_rounder"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "slow",
+            "bowling_type": "orthodox"
+          },
+          "skills": ["bowl", "bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "se_afridi": {
+        "player": {
+          "key": "se_afridi",
+          "name": "Shaheen Afridi",
+          "jersey_name": "Shaheen Afridi",
+          "legal_name": "Shaheen Afridi",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "left_arm",
+            "pace": "fast",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 0,
+                "balls": 1,
+                "fours": 0,
+                "sixes": 0,
+                "dot_balls": 1,
+                "strike_rate": 0.0
+              },
+              "dismissal": null
+            },
+            "bowling": {
+              "score": {
+                "balls": 147,
+                "runs": 79,
+                "economy": 3.22,
+                "extras": 0,
+                "wickets": 4,
+                "maiden_overs": 3,
+                "overs": [24, 3],
+                "balls_breakup": {
+                  "dot_balls": 111,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 10,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 5,
+                "balls": 7,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 5,
+                "strike_rate": 71.43
+              },
+              "dismissal": {
+                "overs": [89, 3],
+                "team_runs": 232,
+                "wicket_number": 9,
+                "msg": "c Mitchell Swepson b Nathan Michael Lyon",
+                "ball_key": "96c9460f-9d94-404c-9983-5cc9cd990d8a"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 66,
+                "runs": 45,
+                "economy": 4.09,
+                "extras": 0,
+                "wickets": 1,
+                "maiden_overs": 2,
+                "overs": [11, 0],
+                "balls_breakup": {
+                  "dot_balls": 48,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 8,
+                  "sixes": 0
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "az_ali": {
+        "player": {
+          "key": "az_ali",
+          "name": "Azhar Ali",
+          "jersey_name": "Azhar Ali",
+          "legal_name": "Azhar Ali",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": "leg_break"
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 78,
+                "balls": 208,
+                "fours": 7,
+                "sixes": 1,
+                "dot_balls": 162,
+                "strike_rate": 37.5
+              },
+              "dismissal": {
+                "overs": [86, 4],
+                "team_runs": 214,
+                "wicket_number": 3,
+                "msg": "c b Pat Cummins",
+                "ball_key": "1bcee505-8623-484e-bb22-2323e646feea"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 17,
+                "balls": 47,
+                "fours": 2,
+                "sixes": 0,
+                "dot_balls": 38,
+                "strike_rate": 36.17
+              },
+              "dismissal": {
+                "overs": [45, 2],
+                "team_runs": 105,
+                "wicket_number": 2,
+                "msg": "c Steven Smith b Nathan Michael Lyon",
+                "ball_key": "896a5c41-3dea-4c0f-a7f9-f66f68d44eb9"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "n_lyon": {
+        "player": {
+          "key": "n_lyon",
+          "name": "Nathan Michael Lyon",
+          "jersey_name": "Nathan Michael Lyon",
+          "legal_name": "Nathan Lyon",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "slow",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 4,
+                "balls": 3,
+                "fours": 1,
+                "sixes": 0,
+                "dot_balls": 2,
+                "strike_rate": 133.33
+              },
+              "dismissal": {
+                "overs": [130, 6],
+                "team_runs": 374,
+                "wicket_number": 9,
+                "msg": "bowled b Naseem Shah",
+                "ball_key": "548ef594-5355-4315-ab6a-e5aa31c252d2"
+              }
+            },
+            "bowling": {
+              "score": {
+                "balls": 240,
+                "runs": 95,
+                "economy": 2.38,
+                "extras": 0,
+                "wickets": 1,
+                "maiden_overs": 10,
+                "overs": [40, 0],
+                "balls_breakup": {
+                  "dot_balls": 189,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 9,
+                  "sixes": 2
+                }
+              }
+            },
+            "fielding": null
+          },
+          "2": {
+            "batting": null,
+            "bowling": {
+              "score": {
+                "balls": 222,
+                "runs": 83,
+                "economy": 2.24,
+                "extras": 0,
+                "wickets": 5,
+                "maiden_overs": 8,
+                "overs": [37, 0],
+                "balls_breakup": {
+                  "dot_balls": 175,
+                  "wides": 0,
+                  "no_balls": 0,
+                  "fours": 6,
+                  "sixes": 1
+                }
+              }
+            },
+            "fielding": null
+          }
+        }
+      },
+      "m_harris": {
+        "player": {
+          "key": "m_harris",
+          "name": "Marcus Harris",
+          "jersey_name": "Marcus Harris",
+          "legal_name": "Marcus Harris",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "har_rauf": {
+        "player": {
+          "key": "har_rauf",
+          "name": "Haris Rauf",
+          "jersey_name": "Haris Rauf",
+          "legal_name": "Haris Rauf",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "i_haq": {
+        "player": {
+          "key": "i_haq",
+          "name": "Imam-ul-Haq",
+          "jersey_name": "Imam-ul-Haq",
+          "legal_name": "Imam-ul-Haq",
+          "gender": "male",
+          "nationality": {
+            "short_code": "PK",
+            "code": "PAK",
+            "name": "Pakistan",
+            "official_name": "Islamic Republic of Pakistan",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "batsman",
+          "roles": ["batsman"],
+          "batting_style": "left_hand",
+          "bowling_style": null,
+          "skills": ["bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 11,
+                "balls": 41,
+                "fours": 2,
+                "sixes": 0,
+                "dot_balls": 36,
+                "strike_rate": 26.83
+              },
+              "dismissal": {
+                "overs": [12, 1],
+                "team_runs": 20,
+                "wicket_number": 1,
+                "msg": "lbw b Pat Cummins",
+                "ball_key": "495dbd5f-c4f0-48ee-82f6-95781dee8ac7"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          },
+          "2": {
+            "batting": {
+              "score": {
+                "runs": 70,
+                "balls": 199,
+                "fours": 5,
+                "sixes": 0,
+                "dot_balls": 156,
+                "strike_rate": 35.18
+              },
+              "dismissal": {
+                "overs": [61, 2],
+                "team_runs": 142,
+                "wicket_number": 3,
+                "msg": "c Marnus Labuschagne b Nathan Michael Lyon",
+                "ball_key": "6f36bd30-b967-40df-bdd7-7511c703831a"
+              }
+            },
+            "bowling": null,
+            "fielding": null
+          }
+        }
+      },
+      "ale_carey": {
+        "player": {
+          "key": "ale_carey",
+          "name": "Alex Carey",
+          "jersey_name": "Alex Carey",
+          "legal_name": "Alex Carey",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "keeper",
+          "roles": ["keeper"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "medium_fast",
+            "bowling_type": null
+          },
+          "skills": ["keep", "bat"]
+        },
+        "score": {
+          "1": {
+            "batting": {
+              "score": {
+                "runs": 67,
+                "balls": 105,
+                "fours": 7,
+                "sixes": 0,
+                "dot_balls": 67,
+                "strike_rate": 63.81
+              },
+              "dismissal": {
+                "overs": [119, 6],
+                "team_runs": 341,
+                "wicket_number": 6,
+                "msg": "lbw b Nauman Ali",
+                "ball_key": "44604cf0-85cc-47d2-8fad-83777735b1ed"
+              }
+            },
+            "bowling": null,
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          },
+          "2": {
+            "batting": null,
+            "bowling": null,
+            "fielding": { "catches": 1, "stumpings": 0, "runouts": 0 }
+          }
+        }
+      },
+      "m_steketee": {
+        "player": {
+          "key": "m_steketee",
+          "name": "Mark Steketee",
+          "jersey_name": "Mark Steketee",
+          "legal_name": "Mark Steketee",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "right_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "fast_medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      },
+      "j_hazlewood": {
+        "player": {
+          "key": "j_hazlewood",
+          "name": "Josh Hazlewood",
+          "jersey_name": "Josh Hazlewood",
+          "legal_name": "Josh Hazlewood",
+          "gender": "male",
+          "nationality": {
+            "short_code": "AU",
+            "code": "AUS",
+            "name": "Australia",
+            "official_name": "the Commonwealth of Australia",
+            "is_region": false
+          },
+          "date_of_birth": null,
+          "seasonal_role": "bowler",
+          "roles": ["bowler"],
+          "batting_style": "left_hand",
+          "bowling_style": {
+            "arm": "right_arm",
+            "pace": "fast_medium",
+            "bowling_type": null
+          },
+          "skills": ["bowl"]
+        },
+        "score": {
+          "1": { "batting": null, "bowling": null, "fielding": null },
+          "2": { "batting": null, "bowling": null, "fielding": null }
+        }
+      }
+    },
+    "notes": [],
+    "data_review": {
+      "schedule": true,
+      "venue": true,
+      "result": true,
+      "pom": true,
+      "score": true,
+      "players": true,
+      "playing_xi": true,
+      "score_reviewed_ball_index": ["a_2", [92, 1]],
+      "team_a": true,
+      "team_b": true,
+      "good_to_close": true,
+      "note": null
+    },
+    "squad": {
+      "a": {
+        "player_keys": [
+          "ift_ahmed",
+          "c__player__zahid_mahmood__a9349",
+          "m_rizwan",
+          "b_azam",
+          "har_rauf",
+          "has_ali",
+          "s_masood",
+          "c__player__mohammad_wasim_jr__85c80",
+          "nau_ali",
+          "nas_shah",
+          "s_shakeel",
+          "c__player__abdullah_shafique__eab8b",
+          "f_alam",
+          "i_haq",
+          "fa_ashraf",
+          "se_afridi",
+          "az_ali",
+          "c__player__sajid_khan__9376a"
+        ],
+        "captain": "b_azam",
+        "keeper": "m_rizwan",
+        "playing_xi": [
+          "b_azam",
+          "i_haq",
+          "c__player__abdullah_shafique__eab8b",
+          "f_alam",
+          "az_ali",
+          "m_rizwan",
+          "nau_ali",
+          "c__player__sajid_khan__9376a",
+          "has_ali",
+          "se_afridi",
+          "nas_shah"
+        ]
+      },
+      "b": {
+        "player_keys": [
+          "p_cummins",
+          "s_boland",
+          "m_harris",
+          "m_swepson",
+          "n_lyon",
+          "m_starc",
+          "j_hazlewood",
+          "ale_carey",
+          "m_steketee",
+          "a_agar",
+          "cam_green",
+          "u_khawaja",
+          "s_smith",
+          "jo_inglis",
+          "d_warner",
+          "t_head",
+          "m_marsh",
+          "mar_labuschagne"
+        ],
+        "captain": "p_cummins",
+        "keeper": "ale_carey",
+        "playing_xi": [
+          "d_warner",
+          "u_khawaja",
+          "mar_labuschagne",
+          "s_smith",
+          "t_head",
+          "cam_green",
+          "ale_carey",
+          "m_starc",
+          "p_cummins",
+          "n_lyon",
+          "m_swepson"
+        ]
+      }
+    },
+    "estimated_end_date": 1648216800.0,
+    "completed_date_approximate": 1648207386.0,
+    "umpires": {
+      "match_umpires": null,
+      "tv_umpires": null,
+      "reserve_umpires": null,
+      "match_referee": null
+    }
+  }
+}
