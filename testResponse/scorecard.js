@@ -19,7 +19,7 @@ const scoreCard = (dataConvert) => {
             playerGender: playerInfo.player.gender,
             playerSeasionalRole: playerInfo.player.seasonal_role,
             playerRole: playerInfo.player.roles,
-            score: playerInfo.score,
+            score: playerInfo.score[1],
           }
         : null;
     })
@@ -35,7 +35,7 @@ const scoreCard = (dataConvert) => {
             playerGender: playerInfo.player.gender,
             playerSeasionalRole: playerInfo.player.seasonal_role,
             playerRole: playerInfo.player.roles,
-            score: playerInfo.score,
+            score: playerInfo.score[1],
           }
         : null;
     })
