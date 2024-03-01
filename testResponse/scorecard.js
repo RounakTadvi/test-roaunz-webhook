@@ -66,7 +66,7 @@ const scoreCard = (dataConvert) => {
         }/${dataConvert.play.innings[`b_${liveInningsKey}`].wickets}`,
       },
       striker: {
-        key: dataConvert.play.live.recent_players.striker.key,
+        key: dataConvert.play.live.recent_players.striker?.key,
         name: dataConvert.play.live.recent_players.striker.name,
         stats: dataConvert.play.live.recent_players.striker.stats,
       },
