@@ -1,6 +1,6 @@
 const scoreCard = (dataConvert) => {
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
-  const liveInnings = dataConvert.play.live?.innings.split("_");
+  const liveInnings = dataConvert.play?.live?.innings.split("_");
   console.log(
     "liveInnings",
     liveInnings,
