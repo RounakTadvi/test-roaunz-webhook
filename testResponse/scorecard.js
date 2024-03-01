@@ -1,13 +1,7 @@
 const scoreCard = (dataConvert) => {
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
   const liveInnings = dataConvert.play?.live?.innings.split("_");
-  console.log(
-    "liveInnings",
-    liveInnings,
-    "liveInning[1]",
-    liveInnings[1],
-    typeof liveInnings[1]
-  );
+  const liveInningsKey = liveInnings.length - 1;
 
   const playerListTeamA = dataConvert.squad.a.playing_xi
     .map((playerKey) => {
@@ -19,19 +13,20 @@ const scoreCard = (dataConvert) => {
             playerGender: playerInfo.player.gender,
             playerSeasionalRole: playerInfo.player.seasonal_role,
             playerRole: playerInfo.player.roles,
-            score: playerInfo.score[1],
+            score: playerInfo.score[liveInningsKey],
           }
         : null;
     })
     .filter((player) => player !== null);
-  const scoreArray = playerListTeamA.map((player) => {
-    return {
-      batting: player.score?.batting?.score,
-      bowling: player.score?.bowling?.score,
-      fielding: player.score.feilding,
-    };
-  });
-  console.log("playerListTeamA", scoreArray);
+  //   const scoreArray = playerListTeamA.map((player) => {
+  //     return {
+  //       batting: player.score?.batting?.score,
+  //       bowling: player.score?.bowling?.score,
+  //       fielding: player.score.feilding,
+  //     };
+  //   });
+  //   console.log("playerListTeamA", scoreArray);
+
   const playerListTeamB = dataConvert.squad.b.playing_xi
     .map((playerKey) => {
       const playerInfo = dataConvert.players[playerKey];
@@ -42,20 +37,20 @@ const scoreCard = (dataConvert) => {
             playerGender: playerInfo.player.gender,
             playerSeasionalRole: playerInfo.player.seasonal_role,
             playerRole: playerInfo.player.roles,
-            score: playerInfo.score[1],
+            score: playerInfo.score[liveInningsKey],
           }
         : null;
     })
     .filter((player) => player !== null);
 
-  const scoreArrayB = playerListTeamB.map((player) => {
-    return {
-      batting: player.score?.batting?.score,
-      bowling: player.score?.bowling?.score,
-      fielding: player.score.feilding,
-    };
-  });
-  console.log("playerListTeamB", scoreArrayB);
+  //   const scoreArrayB = playerListTeamB.map((player) => {
+  //     return {
+  //       batting: player.score?.batting?.score,
+  //       bowling: player.score?.bowling?.score,
+  //       fielding: player.score.feilding,
+  //     };
+  //   });
+  //   console.log("playerListTeamB", scoreArrayB);
 
   const data = {
     matchKey: dataConvert.key,
@@ -63,18 +58,24 @@ const scoreCard = (dataConvert) => {
     teamADetail: {
       teamName: dataConvert.teams.a.code,
       isBatting: dataConvert.play.live.batting_team === "a" ? true : false,
-      isCompletedInning: dataConvert.play.innings.a_1.is_completed,
-      overs: dataConvert.play.innings.a_1.overs,
-      scoreStr: dataConvert.play.innings.a_1.score_str,
-      LiveScore: `${dataConvert.play.innings.a_1.score.runs}/${dataConvert.play.innings.a_1.wickets}`,
+      isCompletedInning:
+        dataConvert.play.innings[`a_${liveInningsKey}`].is_completed,
+      overs: dataConvert.play.innings[`a_${liveInningsKey}`].overs,
+      scoreStr: dataConvert.play.innings[`a_${liveInningsKey}`].score_str,
+      LiveScore: `${
+        dataConvert.play.innings[`a_${liveInningsKey}`].score.runs
+      }/${dataConvert.play.innings[`a_${liveInningsKey}`].wickets}`,
     },
     teamBDetail: {
       teamName: dataConvert.teams.b.code,
       isBatting: dataConvert.play.live.batting_team === "b" ? true : false,
-      overs: dataConvert.play.innings.b_1.overs,
-      isCompletedInning: dataConvert.play.innings.b_1.is_completed,
-      scoreStr: dataConvert.play.innings.b_1.score_str,
-      LiveScore: `${dataConvert.play.innings.b_1.score.runs}/${dataConvert.play.innings.b_1.wickets}`,
+      overs: dataConvert.play.innings[`b_${liveInningsKey}`].overs,
+      isCompletedInning:
+        dataConvert.play.innings[`b_${liveInningsKey}`].is_completed,
+      scoreStr: dataConvert.play.innings[`b_${liveInningsKey}`].score_str,
+      LiveScore: `${
+        dataConvert.play.innings[`b_${liveInningsKey}`].score.runs
+      }/${dataConvert.play.innings[`b_${liveInningsKey}`].wickets}`,
     },
     striker: {
       key: dataConvert.play.live.recent_players.striker.key,
