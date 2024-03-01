@@ -26,9 +26,9 @@ const scoreCard = (dataConvert) => {
     .filter((player) => player !== null);
   const scoreArray = playerListTeamA.map((player) => {
     return {
-      batting: player.score.batting,
-      bolling: player.score.bowling,
-      feilding: player.score.feilding,
+      batting: player.score?.batting?.score,
+      bowling: player.score?.bowling?.score,
+      fielding: player.score?.feilding,
     };
   });
   console.log("playerListTeamA", scoreArray);
@@ -50,9 +50,9 @@ const scoreCard = (dataConvert) => {
 
   const scoreArrayB = playerListTeamB.map((player) => {
     return {
-      batting: player.score.batting,
-      bolling: player.score.bowling,
-      feilding: player.score.feilding,
+      batting: player.score?.batting?.score,
+      bowling: player.score?.bowling?.score,
+      fielding: player.score?.feilding,
     };
   });
   console.log("playerListTeamB", scoreArrayB);
