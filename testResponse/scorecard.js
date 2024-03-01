@@ -1,4 +1,6 @@
 const scoreCard = (dataConvert) => {
+  const plaingStatus = dataConvert.play_status;
+  console.log("=============playing status", plaingStatus);
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
   const liveInnings = dataConvert.play?.live?.innings.split("_");
   const liveInningsKey = liveInnings.length - 1;
@@ -92,6 +94,7 @@ const scoreCard = (dataConvert) => {
       name: dataConvert.play.live.recent_players.bowler.name,
       stats: dataConvert.play.live.recent_players.bowler.stats,
     },
+    play: dataConvert.play,
     teamAPlayerList: {
       playingXI: dataConvert.squad.a.playing_xi,
       playersList: playerListTeamA,
