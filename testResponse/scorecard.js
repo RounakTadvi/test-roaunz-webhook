@@ -2,7 +2,7 @@ const scoreCard = (dataConvert) => {
   const plaingStatus = dataConvert.play_status;
   console.log("=============playing status", plaingStatus);
   const matchName = dataConvert.short_name;
-  const isLive = dataConvert.play?.live;
+  const isLive = dataConvert.play.live;
   if (isLive === null)
     return `MatchKey:- ${dataConvert.key}, matchName:- ${matchName}is not live`;
 
