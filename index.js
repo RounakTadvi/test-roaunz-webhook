@@ -2,8 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 var zlib = require("zlib");
 const { default: axios } = require("axios");
-const { scoreCard } = require("./testResponse/scorecard");
-
+const scoreCard=require("./testResponse/scorecard")
 const app = express();
 const port = 5000;
 
@@ -56,39 +55,14 @@ app.post("/match/feed/v1/", rawBody, function (req, res) {
     zlib.unzip(buffer, (err, buffer) => {
       if (!err) {
         data = JSON.parse(buffer.toString());
-        // const matchData = {
-        //   matchName: data.data.name,
-        //   matchKey: data.data.key,
-        //   matchSortName: data.data.short_name,
-        //   tournamentKey: data.data.tournament,
-        //   teamsA: data.data.teams.a,
-        //   teamsB: data.data.teams.b,
-        //   winner: data.data.winner,
-        //   title: data.data.title,
-        //   play_status: data.data.play_status,
-        //   start_at_local: data.data.start_at_local,
-        //   toss: data.data.toss,
-        //   play: {
-        //     firstBatting: data.data.play.first_batting,
-        //     dayNumber: data.data.play.day_number,
-        //     oversPerInnings: data.data.play.overs_per_innings,
-        //     reducedOvers: data.data.play.reduced_overs,
-        //     target: data.data.play.target,
-        //     result: data.data.play.result,
-        //     inningsOrder: data.data.play.innings_order,
-        //     innings: data.data.play.innings,
-        //     live: data.data.play.live,
-        //     relatedBalls: data.data.play.related_balls,
-        //   },
-        // };
-
+  
         // const live = data.data.play.live;
         const match = data.data;
 
         const responseData = datafunction(match);
-        const scoreCard = scoreCard(match);
+        const ScoreCard = scoreCard(match);
 
-        console.log({ scoreCard: scoreCard }, { matchData: responseData });
+        console.log({ scoreCard: ScoreCard }, { matchData: responseData });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));

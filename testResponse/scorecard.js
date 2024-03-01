@@ -1,4 +1,4 @@
-export const scoreCard = (dataConvert) => {
+const scoreCard = (dataConvert) => {
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
   const liveInnings = dataConvert.play.live?.innings.split("_");
   console.log("liveInnings", liveInnings);
@@ -80,3 +80,5 @@ export const scoreCard = (dataConvert) => {
   };
   return data;
 };
+
+module.exports = scoreCard;
