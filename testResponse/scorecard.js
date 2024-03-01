@@ -67,18 +67,18 @@ const scoreCard = (dataConvert) => {
       },
       striker: {
         key: dataConvert.play.live.recent_players.striker?.key,
-        name: dataConvert.play.live.recent_players.striker.name,
-        stats: dataConvert.play.live.recent_players.striker.stats,
+        name: dataConvert.play.live.recent_players.striker?.name,
+        stats: dataConvert.play.live.recent_players.striker?.stats,
       },
       non_striker: {
-        key: dataConvert.play.live.recent_players.non_striker.key,
-        name: dataConvert.play.live.recent_players.non_striker.name,
-        stats: dataConvert.play.live.recent_players.non_striker.stats,
+        key: dataConvert.play.live.recent_players.non_striker?.key,
+        name: dataConvert.play.live.recent_players.non_striker?.name,
+        stats: dataConvert.play.live.recent_players.non_striker?.stats,
       },
       bowler: {
-        key: dataConvert.play.live.recent_players.bowler.key,
-        name: dataConvert.play.live.recent_players.bowler.name,
-        stats: dataConvert.play.live.recent_players.bowler.stats,
+        key: dataConvert.play.live.recent_players.bowler?.key,
+        name: dataConvert.play.live.recent_players.bowler?.name,
+        stats: dataConvert.play.live.recent_players.bowler?.stats,
       },
       // play: dataConvert.play,
       teamAPlayerList: {
