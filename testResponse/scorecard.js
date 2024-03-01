@@ -1,6 +1,11 @@
 const scoreCard = (dataConvert) => {
   const plaingStatus = dataConvert.play_status;
   console.log("=============playing status", plaingStatus);
+  const matchName = dataConvert.short_name;
+  const isLive = dataConvert.play?.live;
+  if (isLive === null)
+    return `MatchKey:- ${dataConvert.key}, matchName:- ${matchName}is not live`;
+
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
   const liveInnings = dataConvert.play?.live?.innings.split("_");
   const liveInningsKey = liveInnings?.length - 1;
@@ -104,6 +109,7 @@ const scoreCard = (dataConvert) => {
       playersList: playerListTeamB,
     },
   };
+
   return data;
 };
 
