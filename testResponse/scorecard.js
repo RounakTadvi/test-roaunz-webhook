@@ -59,7 +59,7 @@ const scoreCard = (dataConvert) => {
     matchName: dataConvert.short_name,
     teamADetail: {
       teamName: dataConvert.teams.a.code,
-      isBatting: dataConvert.play.live.batting_team === "a" ? true : false,
+      isBatting: dataConvert.play?.live?.batting_team === "a" ? true : false,
       isCompletedInning:
         dataConvert.play.innings[`a_${liveInningsKey}`].is_completed,
       overs: dataConvert.play.innings[`a_${liveInningsKey}`].overs,
@@ -70,7 +70,7 @@ const scoreCard = (dataConvert) => {
     },
     teamBDetail: {
       teamName: dataConvert.teams.b.code,
-      isBatting: dataConvert.play.live.batting_team === "b" ? true : false,
+      isBatting: dataConvert.play?.live?.batting_team === "b" ? true : false,
       overs: dataConvert.play.innings[`b_${liveInningsKey}`].overs,
       isCompletedInning:
         dataConvert.play.innings[`b_${liveInningsKey}`].is_completed,
@@ -80,19 +80,19 @@ const scoreCard = (dataConvert) => {
       }/${dataConvert.play.innings[`b_${liveInningsKey}`].wickets}`,
     },
     striker: {
-      key: dataConvert.play.live.recent_players.striker.key,
-      name: dataConvert.play.live.recent_players.striker.name,
-      stats: dataConvert.play.live.recent_players.striker.stats,
+      key: dataConvert.play?.live?.recent_players.striker.key,
+      name: dataConvert.play?.live?.recent_players.striker.name,
+      stats: dataConvert.play?.live?.recent_players.striker.stats,
     },
     non_striker: {
-      key: dataConvert.play.live.recent_players.non_striker.key,
-      name: dataConvert.play.live.recent_players.non_striker.name,
-      stats: dataConvert.play.live.recent_players.non_striker.stats,
+      key: dataConvert.play?.live?.recent_players.non_striker.key,
+      name: dataConvert.play?.live?.recent_players.non_striker.name,
+      stats: dataConvert.play?.live?.recent_players.non_striker.stats,
     },
     bowler: {
-      key: dataConvert.play.live.recent_players.bowler.key,
-      name: dataConvert.play.live.recent_players.bowler.name,
-      stats: dataConvert.play.live.recent_players.bowler.stats,
+      key: dataConvert.play?.live?.recent_players.bowler.key,
+      name: dataConvert.play?.live?.recent_players.bowler.name,
+      stats: dataConvert.play?.live?.recent_players.bowler.stats,
     },
     play: dataConvert.play,
     teamAPlayerList: {
