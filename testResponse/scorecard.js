@@ -1,7 +1,13 @@
 const scoreCard = (dataConvert) => {
   // console.log('scoreAArray', scoreAArray, 'scoreAkey', scoreAkey, 'scoreBArray', scoreBArray, 'scoreBkey', scoreBkey);
   const liveInnings = dataConvert.play.live?.innings.split("_");
-  console.log("liveInnings", liveInnings);
+  console.log(
+    "liveInnings",
+    liveInnings,
+    "liveInning[1]",
+    liveInnings[1],
+    typeof liveInnings[1]
+  );
 
   const playerListTeamA = dataConvert.squad.a.playing_xi
     .map((playerKey) => {
