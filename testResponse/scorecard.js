@@ -28,7 +28,7 @@ const scoreCard = (dataConvert) => {
     return {
       batting: player.score?.batting?.score,
       bowling: player.score?.bowling?.score,
-      fielding: player.score?.feilding,
+      fielding: player.score.feilding,
     };
   });
   console.log("playerListTeamA", scoreArray);
@@ -52,7 +52,7 @@ const scoreCard = (dataConvert) => {
     return {
       batting: player.score?.batting?.score,
       bowling: player.score?.bowling?.score,
-      fielding: player.score?.feilding,
+      fielding: player.score.feilding,
     };
   });
   console.log("playerListTeamB", scoreArrayB);
