@@ -59,10 +59,10 @@ app.post("/match/feed/v1/", rawBody, function (req, res) {
         // const live = data.data.play.live;
         const match = data.data;
 
-        const responseData = datafunction(match);
+        // const responseData = datafunction(match);
         const ScoreCard = scoreCard(match);
 
-        console.log({ scoreCard: ScoreCard }, { matchData: responseData });
+        console.log({ scoreCard: ScoreCard });
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
