@@ -59,10 +59,12 @@ app.post("/match/feed/v1/", rawBody, function (req, res) {
         // const live = data.data.play.live;
         const match = data.data;
 
+        const live = match.play.live;
+
         // const responseData = datafunction(match);
         const ScoreCard = scoreCard(match);
         // console.log({ scoreCard: ScoreCard });
-        console.log(`CricketAPI Data: ${JSON.stringify(match)}`);
+        console.log(`CricketAPI Data: ${JSON.stringify(live)}`);
         res.send(JSON.stringify({ status: true }));
       } else {
         res.send(JSON.stringify({ status: false }));
